@@ -1,0 +1,35 @@
+{
+  "name": "wcag-as-json",
+  "version": "0.0.0",
+  "description": "The WCAG Standard in a JSON format.",
+  "contributors": [
+    "Karl Groves <karl@karlgroves.com> (https://github.com/karlgroves)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karlgroves/wcag-as-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karlgroves/wcag-as-json/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-jsonlint": "^1.0.6",
+    "jshint-stylish": "^2.0.1",
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.2"
+  },
+  "keywords": []
+}
