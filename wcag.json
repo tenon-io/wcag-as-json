@@ -1,1838 +1,1859 @@
 [
-  {
-    "title": "Perceivable",
-    "description": "Information and user interface components must be presentable to users in ways they can perceive.",
-    "url": "https://www.w3.org/TR/WCAG20/#perceivable",
-    "guidelines": [
-      {
-        "title": "Text Alternatives",
-        "description": "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.",
-        "url": "https://www.w3.org/TR/WCAG20/#text-equiv",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Non-text Content",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
+    {
+        "title": "Perceivable",
+        "description": "Information and user interface components must be presentable to users in ways they can perceive.",
+        "url": "https://www.w3.org/TR/WCAG20/#perceivable",
+        "guidelines": [
+            {
+                "title": "Text Alternatives",
+                "description": "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.",
+                "url": "https://www.w3.org/TR/WCAG20/#text-equiv",
+                "references": [
+                    {
+                        "title": "Understanding Guideline 1.1",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html"
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Non-text Content",
+                        "description": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below. (",
+                        "url": "https://www.w3.org/TR/WCAG20/#text-equiv-all",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "exception",
+                                "title": "Controls, Input",
+                                "description": "If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Guideline 4.1 for additional requirements for controls and content that accepts user input.)"
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Time-Based Media",
+                                "description": "If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer to Guideline 1.2 for additional requirements for media.)"
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Test",
+                                "description": "If non-text content is a test or exercise that would be invalid if presented in text, then text alternatives at least provide descriptive identification of the non-text content."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Sensory",
+                                "description": "If non-text content is primarily intended to create a specific sensory experience, then text alternatives at least provide descriptive identification of the non-text content."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "CAPTCHA",
+                                "description": "If the purpose of non-text content is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the non-text content are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Decoration, Formatting, Invisible",
+                                "description": "If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Time-based Media",
+                "description": "Provide alternatives for time-based media.",
+                "url": "https://www.w3.org/TR/WCAG20/#media-equiv",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Audio-only and Video-only (Prerecorded",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Captions (Prerecorded)",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Audio Description or Media Alternative (Prerecorded)",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Captions (Live)",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Audio Description (Prerecorded)",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Sign Language (Prerecorded)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Extended Audio Description (Prerecorded)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Media Alternative (Prerecorded)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Audio-only (Live)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Adaptable",
+                "description": "Create content that can be presented in different ways (for example simpler layout) without losing information or structure.",
+                "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Info and Relationships",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Meaningful Sequence",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Sensory Characteristics",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Distinguishable",
+                "description": "Make it easier for users to see and hear content including separating foreground from background.",
+                "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Use of Color",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Audio Control",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": "Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Contrast (Minimum)",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Resize text",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Images of Text",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Contrast (Enhanced)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Low or No Background Audio",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "title": "Time-based Media",
-        "description": "Provide alternatives for time-based media.",
-        "url": "https://www.w3.org/TR/WCAG20/#media-equiv",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Audio-only and Video-only (Prerecorded",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Captions (Prerecorded)",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Audio Description or Media Alternative (Prerecorded)",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Captions (Live)",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Audio Description (Prerecorded)",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Sign Language (Prerecorded)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Extended Audio Description (Prerecorded)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Media Alternative (Prerecorded)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Audio-only (Live)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
+    },
+    {
+        "title": "Operable",
+        "description": "User interface components and navigation must be operable.",
+        "url": "https://www.w3.org/TR/WCAG20/#operable",
+        "guidelines": [
+            {
+                "title": "Keyboard Accessible",
+                "description": "Make all functionality available from a keyboard.",
+                "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Keyboard",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "No Keyboard Trap",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Keyboard (No Exception)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Enough Time",
+                "description": "Provide users enough time to read and use content.",
+                "url": "https://www.w3.org/TR/WCAG20/#time-limits",
+                "references": [
+                    {
+                        "title": "",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Timing Adjustable",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pause, Stop, Hide",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "No Timing",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Interruptions",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Re-authenticating",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Seizures",
+                "description": "Do not design content in a way that is known to cause seizures.",
+                "url": "https://www.w3.org/TR/WCAG20/#seizure",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Three Flashes or Below Threshold",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Three Flashes",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Navigable",
+                "description": "Provide ways to help users navigate, find content, and determine where they are.",
+                "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Bypass Blocks",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Page Titled",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Focus Order",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Link Purpose (In Context)",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Multiple Ways",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Headings and Labels",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Focus Visible",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Location",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Link Purpose (Link Only)",
+                        "description": "",
+                        "url": "",
+                        "level": "",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Section Headings",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "title": "Adaptable",
-        "description": "Create content that can be presented in different ways (for example simpler layout) without losing information or structure.",
-        "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Info and Relationships",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Meaningful Sequence",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Sensory Characteristics",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
+    },
+    {
+        "title": "Understandable",
+        "description": "Information and the operation of user interface must be understandable.",
+        "url": "https://www.w3.org/TR/WCAG20/#understandable",
+        "guidelines": [
+            {
+                "title": "Readable",
+                "description": "Make text content readable and understandable.",
+                "url": "https://www.w3.org/TR/WCAG20/#meaning",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Language of Page",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Language of Parts",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Unusual Words",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Abbreviations",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Reading Level",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pronunciation",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Predictable",
+                "description": "Make Web pages appear and operate in predictable ways.",
+                "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "On Focus",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "On Input",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Consistent Navigation",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Consistent Identification",
+                        "description": "",
+                        "url": "",
+                        "level": "",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Change on Request",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Input Assistance",
+                "description": "Help users avoid and correct mistakes.",
+                "url": "https://www.w3.org/TR/WCAG20/#minimize-error",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Error Identification",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Labels or Instructions",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Error Suggestion",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Error Prevention (Legal, Financial, Data",
+                        "description": "",
+                        "url": "",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Help",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Error Prevention (All)",
+                        "description": "",
+                        "url": "",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "title": "Distinguishable",
-        "description": "Make it easier for users to see and hear content including separating foreground from background.",
-        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Use of Color",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Audio Control",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Contrast (Minimum)",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Resize text",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Images of Text",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Contrast (Enhanced)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Low or No Background Audio",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
+    },
+    {
+        "title": "Robust",
+        "description": "Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.",
+        "url": "https://www.w3.org/TR/WCAG20/#robust",
+        "guidelines": [
+            {
+                "title": "Compatible",
+                "description": "Maximize compatibility with current and future user agents, including assistive technologies.",
+                "url": "https://www.w3.org/TR/WCAG20/#ensure-compat",
+                "references": [
+                    {
+                        "title": "Understanding Guideline ",
+                        "url": ""
+                    }
+                ],
+                "success_criteria": [
+                    {
+                        "title": "Parsing",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Name, Role, Value",
+                        "description": "",
+                        "url": "",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet ",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "title": "Operable",
-    "description": "User interface components and navigation must be operable.",
-    "url": "https://www.w3.org/TR/WCAG20/#operable",
-    "guidelines": [
-      {
-        "title": "Keyboard Accessible",
-        "description": "Make all functionality available from a keyboard.",
-        "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Keyboard",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "No Keyboard Trap",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Keyboard (No Exception)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Enough Time",
-        "description": "Provide users enough time to read and use content.",
-        "url": "https://www.w3.org/TR/WCAG20/#time-limits",
-        "references": [
-          {
-            "title": "",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Timing Adjustable",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Pause, Stop, Hide",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "No Timing",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Interruptions",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Re-authenticating",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Seizures",
-        "description": "Do not design content in a way that is known to cause seizures.",
-        "url": "https://www.w3.org/TR/WCAG20/#seizure",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Three Flashes or Below Threshold",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Three Flashes",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Navigable",
-        "description": "Provide ways to help users navigate, find content, and determine where they are.",
-        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Bypass Blocks",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Page Titled",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Focus Order",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Link Purpose (In Context)",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Multiple Ways",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Headings and Labels",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Focus Visible",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Location",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Link Purpose (Link Only)",
-            "description": "",
-            "url": "",
-            "level": "",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Section Headings",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Understandable",
-    "description": "Information and the operation of user interface must be understandable.",
-    "url": "https://www.w3.org/TR/WCAG20/#understandable",
-    "guidelines": [
-      {
-        "title": "Readable",
-        "description": "Make text content readable and understandable.",
-        "url": "https://www.w3.org/TR/WCAG20/#meaning",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Language of Page",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Language of Parts",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Unusual Words",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Abbreviations",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Reading Level",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Pronunciation",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Predictable",
-        "description": "Make Web pages appear and operate in predictable ways.",
-        "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "On Focus",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "On Input",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Consistent Navigation",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Consistent Identification",
-            "description": "",
-            "url": "",
-            "level": "",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Change on Request",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Input Assistance",
-        "description": "Help users avoid and correct mistakes.",
-        "url": "https://www.w3.org/TR/WCAG20/#minimize-error",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Error Identification",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Labels or Instructions",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Error Suggestion",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Error Prevention (Legal, Financial, Data",
-            "description": "",
-            "url": "",
-            "level": "AA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Help",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Error Prevention (All)",
-            "description": "",
-            "url": "",
-            "level": "AAA",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Robust",
-    "description": "Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.",
-    "url": "https://www.w3.org/TR/WCAG20/#robust",
-    "guidelines": [
-      {
-        "title": "Compatible",
-        "description": "Maximize compatibility with current and future user agents, including assistive technologies.",
-        "url": "https://www.w3.org/TR/WCAG20/#ensure-compat",
-        "references": [
-          {
-            "title": "Understanding Guideline ",
-            "url": ""
-          }
-        ],
-        "success_criteria": [
-          {
-            "title": "Parsing",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "title": "Name, Role, Value",
-            "description": "",
-            "url": "",
-            "level": "A",
-            "special_cases": [
-              {
-                "type": "",
-                "title": "",
-                "description": ""
-              }
-            ],
-            "notes": [
-              {
-                "content": ""
-              }
-            ],
-            "references": [
-              {
-                "title": "How to Meet ",
-                "url": ""
-              },
-              {
-                "title": "Understanding",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
