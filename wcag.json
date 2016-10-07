@@ -265,85 +265,59 @@
                 "success_criteria": [
                     {
                         "title": "Info and Relationships",
-                        "description": "",
+                        "description": "Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.3.1",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-programmatic"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.3.1",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
                             }
                         ]
                     },
                     {
                         "title": "Meaningful Sequence",
-                        "description": "",
+                        "description": "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.3.2",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-sequence"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.3.2",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
                             }
                         ]
                     },
                     {
                         "title": "Sensory Characteristics",
-                        "description": "",
+                        "description": "Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null,
                         "notes": [
                             {
-                                "content": ""
+                                "content": "For requirements related to color, refer to Guideline 1.4."
                             }
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.3.3",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-understanding"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.3.3",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html"
                             }
                         ]
                     }
@@ -362,44 +336,32 @@
                 "success_criteria": [
                     {
                         "title": "Use of Color",
-                        "description": "",
+                        "description": "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null,
                         "notes": [
                             {
-                                "content": ""
+                                "content": "This success criterion addresses color perception specifically. Other forms of perception are covered in Guideline 1.3 including programmatic access to color and other visual presentation coding."
                             }
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.4.1",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-without-color"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.4.1",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html"
                             }
                         ]
                     },
                     {
                         "title": "Audio Control",
-                        "description": "",
+                        "description": "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null,
                         "notes": [
                             {
                                 "content": "Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
@@ -407,96 +369,97 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.4.2",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.4.2",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html"
                             }
                         ]
                     },
                     {
                         "title": "Contrast (Minimum)",
-                        "description": "",
+                        "description": " The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
-                        "references": [
-                            {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "type": "exception",
+                                "title": "Large Text",
+                                "description": "Large-scale text and images of large-scale text have a contrast ratio of at least 3:1"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "type": "exception",
+                                "title": "Incidental",
+                                "description": "Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Logotypes",
+                                "description": "Text that is part of a logo or brand name has no minimum contrast requirement."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.3",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast"
+                            },
+                            {
+                                "title": "Understanding 1.4.3",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
                             }
                         ]
                     },
                     {
                         "title": "Resize text",
-                        "description": "",
+                        "description": "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.4.4",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-scale"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.4.4",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
                             }
                         ]
                     },
                     {
                         "title": "Images of Text",
-                        "description": "",
+                        "description": "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
-                                "type": "",
-                                "title": "",
-                                "description": ""
+                                "type": "exception",
+                                "title": "Customizable",
+                                "description": "The image of text can be visually customized to the user's requirements"
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Essential",
+                                "description": "A particular presentation of text is essential to the information being conveyed"
                             }
                         ],
                         "notes": [
                             {
-                                "content": ""
+                                "content": "Logotypes (text that is part of a logo or brand name) are considered essential"
                             }
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.4.5",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-text-presentation"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.4.5",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html"
                             }
                         ]
                     },
@@ -512,18 +475,14 @@
                                 "description": ""
                             }
                         ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 1.4.6",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 1.4.6",
                                 "url": ""
                             }
                         ]
@@ -547,11 +506,67 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 1.4.7",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 1.4.7",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Visual Presentation",
+                        "description": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.8",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding 1.4.8",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Images of Text (No Exception)",
+                        "description": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
+                        "level": "AAA",
+                        "special_cases": [
+                            {
+                                "type": "",
+                                "title": "",
+                                "description": ""
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": ""
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.9",
+                                "url": ""
+                            },
+                            {
+                                "title": "Understanding 1.4.9",
                                 "url": ""
                             }
                         ]
@@ -581,13 +596,7 @@
                         "description": "",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null,
                         "notes": [
                             {
                                 "content": ""
@@ -595,11 +604,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.1.1",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.1.1",
                                 "url": ""
                             }
                         ]
@@ -609,13 +618,7 @@
                         "description": "",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null,
                         "notes": [
                             {
                                 "content": ""
@@ -623,11 +626,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.1.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.1.2",
                                 "url": ""
                             }
                         ]
@@ -637,25 +640,15 @@
                         "description": "",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.1.3",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.1.3",
                                 "url": ""
                             }
                         ]
@@ -692,11 +685,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.2.1",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.2.1",
                                 "url": ""
                             }
                         ]
@@ -720,11 +713,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.2.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.2.2",
                                 "url": ""
                             }
                         ]
@@ -748,11 +741,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.2.3",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.2.3",
                                 "url": ""
                             }
                         ]
@@ -776,11 +769,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.2.4",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.2.4",
                                 "url": ""
                             }
                         ]
@@ -804,11 +797,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.2.5",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.2.5",
                                 "url": ""
                             }
                         ]
@@ -845,11 +838,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.3.1",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.3.1",
                                 "url": ""
                             }
                         ]
@@ -873,11 +866,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.3.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.3.2",
                                 "url": ""
                             }
                         ]
@@ -900,25 +893,15 @@
                         "description": "",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.1",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.1",
                                 "url": ""
                             }
                         ]
@@ -942,11 +925,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.2",
                                 "url": ""
                             }
                         ]
@@ -970,11 +953,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.3",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.3",
                                 "url": ""
                             }
                         ]
@@ -998,11 +981,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.4",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.4",
                                 "url": ""
                             }
                         ]
@@ -1026,11 +1009,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.5",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.5",
                                 "url": ""
                             }
                         ]
@@ -1054,11 +1037,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.6",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.6",
                                 "url": ""
                             }
                         ]
@@ -1082,39 +1065,29 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.7",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.7",
                                 "url": ""
                             }
                         ]
                     },
                     {
                         "title": "Location",
-                        "description": "",
+                        "description": "Information about the user's location within a set of Web pages is available. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.8",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.8",
                                 "url": ""
                             }
                         ]
@@ -1138,11 +1111,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.9",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.9",
                                 "url": ""
                             }
                         ]
@@ -1166,11 +1139,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 2.4.10",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 2.4.10",
                                 "url": ""
                             }
                         ]
@@ -1214,11 +1187,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.1.1",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.1.1",
                                 "url": ""
                             }
                         ]
@@ -1242,11 +1215,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.1.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.1.2",
                                 "url": ""
                             }
                         ]
@@ -1270,11 +1243,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.1.3",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.1.3",
                                 "url": ""
                             }
                         ]
@@ -1298,11 +1271,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.1.4",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.1.4",
                                 "url": ""
                             }
                         ]
@@ -1326,11 +1299,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.1.5",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.1.5",
                                 "url": ""
                             }
                         ]
@@ -1354,11 +1327,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.1.6",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.1.6",
                                 "url": ""
                             }
                         ]
@@ -1395,11 +1368,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.2.1",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.2.1",
                                 "url": ""
                             }
                         ]
@@ -1423,11 +1396,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.2.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.2.2",
                                 "url": ""
                             }
                         ]
@@ -1451,11 +1424,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.2.3",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.2.3",
                                 "url": ""
                             }
                         ]
@@ -1479,11 +1452,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.2.4",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.2.4",
                                 "url": ""
                             }
                         ]
@@ -1507,11 +1480,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.2.5",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.2.5",
                                 "url": ""
                             }
                         ]
@@ -1566,11 +1539,11 @@
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
+                                "title": "How to Meet 3.3.2",
                                 "url": ""
                             },
                             {
-                                "title": "Understanding",
+                                "title": "Understanding 3.3.2",
                                 "url": ""
                             }
                         ]
