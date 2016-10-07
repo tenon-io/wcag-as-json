@@ -55,12 +55,12 @@
                         "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.1.1",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-text-equiv-all"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.1.1",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
                             }
                         ]
                     }
@@ -72,260 +72,181 @@
                 "url": "https://www.w3.org/TR/WCAG20/#media-equiv",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 1.2",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv.html"
                     }
                 ],
                 "success_criteria": [
                     {
                         "title": "Audio-only and Video-only (Prerecorded",
-                        "description": "",
-                        "url": "",
+                        "description": "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such.",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
-                        "references": [
-                            {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "type": "all-true",
+                                "title": "Prerecorded Audio-only",
+                                "description": "An alternative for time-based media is provided that presents equivalent information for prerecorded audio-only content."
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "type": "all-true",
+                                "title": "Prerecorded Video-only",
+                                "description": "Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content"
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 1.3.1",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-av-only-alt"
+                            },
+                            {
+                                "title": "Understanding 1.2.1",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
                             }
                         ]
                     },
                     {
                         "title": "Captions (Prerecorded)",
-                        "description": "",
-                        "url": "",
+                        "description": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.2",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-captions"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.2",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
                             }
                         ]
                     },
                     {
                         "title": "Audio Description or Media Alternative (Prerecorded)",
-                        "description": "",
-                        "url": "",
+                        "description": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.3",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-audio-desc"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.3",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
                             }
                         ]
                     },
                     {
                         "title": "Captions (Live)",
-                        "description": "",
-                        "url": "",
+                        "description": "Captions are provided for all live audio content in synchronized media. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.4",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-real-time-captions"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.4",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html"
                             }
                         ]
                     },
                     {
                         "title": "Audio Description (Prerecorded)",
-                        "description": "",
-                        "url": "",
+                        "description": "Audio description is provided for all prerecorded video content in synchronized media. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.5",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-audio-desc-only"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.5",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html"
                             }
                         ]
                     },
                     {
                         "title": "Sign Language (Prerecorded)",
-                        "description": "",
-                        "url": "",
+                        "description": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.6",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-sign"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.6",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-sign.html"
                             }
                         ]
                     },
                     {
                         "title": "Extended Audio Description (Prerecorded)",
-                        "description": "",
-                        "url": "",
+                        "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.7",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-extended-ad"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.7",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-extended-ad.html"
                             }
                         ]
                     },
                     {
                         "title": "Media Alternative (Prerecorded)",
-                        "description": "",
-                        "url": "",
+                        "description": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.8",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-text-doc"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.8",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
                             }
                         ]
                     },
                     {
                         "title": "Audio-only (Live)",
-                        "description": "",
-                        "url": "",
+                        "description": " An alternative for time-based media that presents equivalent information for live audio-only content is provided.",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 1.2.9",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-live-audio-only"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 1.2.9",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-live-audio-only.html"
                             }
                         ]
                     }
@@ -345,7 +266,7 @@
                     {
                         "title": "Info and Relationships",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -373,7 +294,7 @@
                     {
                         "title": "Meaningful Sequence",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -401,7 +322,7 @@
                     {
                         "title": "Sensory Characteristics",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -442,7 +363,7 @@
                     {
                         "title": "Use of Color",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -470,7 +391,7 @@
                     {
                         "title": "Audio Control",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -498,7 +419,7 @@
                     {
                         "title": "Contrast (Minimum)",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -526,7 +447,7 @@
                     {
                         "title": "Resize text",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -554,7 +475,7 @@
                     {
                         "title": "Images of Text",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -582,7 +503,7 @@
                     {
                         "title": "Contrast (Enhanced)",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -610,7 +531,7 @@
                     {
                         "title": "Low or No Background Audio",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -658,7 +579,7 @@
                     {
                         "title": "Keyboard",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -686,7 +607,7 @@
                     {
                         "title": "No Keyboard Trap",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -714,7 +635,7 @@
                     {
                         "title": "Keyboard (No Exception)",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -755,7 +676,7 @@
                     {
                         "title": "Timing Adjustable",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -783,7 +704,7 @@
                     {
                         "title": "Pause, Stop, Hide",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -811,7 +732,7 @@
                     {
                         "title": "No Timing",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -839,7 +760,7 @@
                     {
                         "title": "Interruptions",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -867,7 +788,7 @@
                     {
                         "title": "Re-authenticating",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -908,7 +829,7 @@
                     {
                         "title": "Three Flashes or Below Threshold",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -936,7 +857,7 @@
                     {
                         "title": "Three Flashes",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -977,7 +898,7 @@
                     {
                         "title": "Bypass Blocks",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1005,7 +926,7 @@
                     {
                         "title": "Page Titled",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1033,7 +954,7 @@
                     {
                         "title": "Focus Order",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1061,7 +982,7 @@
                     {
                         "title": "Link Purpose (In Context)",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1089,7 +1010,7 @@
                     {
                         "title": "Multiple Ways",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1117,7 +1038,7 @@
                     {
                         "title": "Headings and Labels",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1145,7 +1066,7 @@
                     {
                         "title": "Focus Visible",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1173,7 +1094,7 @@
                     {
                         "title": "Location",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1201,7 +1122,7 @@
                     {
                         "title": "Link Purpose (Link Only)",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "",
                         "special_cases": [
                             {
@@ -1229,7 +1150,7 @@
                     {
                         "title": "Section Headings",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1277,7 +1198,7 @@
                     {
                         "title": "Language of Page",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1305,7 +1226,7 @@
                     {
                         "title": "Language of Parts",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1333,7 +1254,7 @@
                     {
                         "title": "Unusual Words",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1361,7 +1282,7 @@
                     {
                         "title": "Abbreviations",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1389,7 +1310,7 @@
                     {
                         "title": "Reading Level",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1417,7 +1338,7 @@
                     {
                         "title": "Pronunciation",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1458,7 +1379,7 @@
                     {
                         "title": "On Focus",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1486,7 +1407,7 @@
                     {
                         "title": "On Input",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1514,7 +1435,7 @@
                     {
                         "title": "Consistent Navigation",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1542,7 +1463,7 @@
                     {
                         "title": "Consistent Identification",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "",
                         "special_cases": [
                             {
@@ -1570,7 +1491,7 @@
                     {
                         "title": "Change on Request",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1611,7 +1532,7 @@
                     {
                         "title": "Error Identification",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1639,7 +1560,7 @@
                     {
                         "title": "Labels or Instructions",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
                         "special_cases": [
                             {
@@ -1667,7 +1588,7 @@
                     {
                         "title": "Error Suggestion",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1695,7 +1616,7 @@
                     {
                         "title": "Error Prevention (Legal, Financial, Data",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1723,7 +1644,7 @@
                     {
                         "title": "Help",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1751,7 +1672,7 @@
                     {
                         "title": "Error Prevention (All)",
                         "description": "",
-                        "url": "",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1798,57 +1719,45 @@
                 "success_criteria": [
                     {
                         "title": "Parsing",
-                        "description": "",
-                        "url": "",
+                        "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. ",
+                        "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null
                         "notes": [
                             {
-                                "content": ""
+                                "content": "Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete."
                             }
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 4.1.1",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-ensure-compat-parses"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 4.1.1",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
                             }
                         ]
                     },
                     {
                         "title": "Name, Role, Value",
-                        "description": "",
-                        "url": "",
+                        "description": "For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.",
+                        "url": "https://www.w3.org/TR/WCAG20/#ensure-compat-rsv",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
+                        "special_cases": null,
                         "notes": [
                             {
-                                "content": ""
+                                "content": "This success criterion is primarily for Web authors who develop or script their own user interface components. For example, standard HTML controls already meet this success criterion when used according to specification."
                             }
                         ],
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 4.1.2",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-ensure-compat-rsv"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 4.1.2",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
                             }
                         ]
                     }
