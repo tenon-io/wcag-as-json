@@ -238,7 +238,7 @@
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": null,
-                        "notes": null,,
+                        "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.9",
@@ -258,8 +258,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 1.3",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation.html"
                     }
                 ],
                 "success_criteria": [
@@ -355,8 +355,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 1.4",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast.html"
                     }
                 ],
                 "success_criteria": [
@@ -571,8 +571,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 2.1",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html"
                     }
                 ],
                 "success_criteria": [
@@ -668,8 +668,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#time-limits",
                 "references": [
                     {
-                        "title": "",
-                        "url": ""
+                        "title": "Understanding Guideline 2.2",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html"
                     }
                 ],
                 "success_criteria": [
@@ -821,8 +821,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#seizure",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 2.3",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html"
                     }
                 ],
                 "success_criteria": [
@@ -890,8 +890,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 2.4",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms.html"
                     }
                 ],
                 "success_criteria": [
@@ -1190,8 +1190,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#meaning",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 3.1",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning.html"
                     }
                 ],
                 "success_criteria": [
@@ -1371,8 +1371,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 3.2",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior.html"
                     }
                 ],
                 "success_criteria": [
@@ -1524,36 +1524,26 @@
                 "url": "https://www.w3.org/TR/WCAG20/#minimize-error",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 3.3",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error.html"
                     }
                 ],
                 "success_criteria": [
                     {
                         "title": "Error Identification",
-                        "description": "",
+                        "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 3.3.1",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-identified"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 3.3.1",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html"
                             }
                         ]
                     },
@@ -1587,113 +1577,105 @@
                     },
                     {
                         "title": "Error Suggestion",
-                        "description": "",
+                        "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 3.3.3",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-suggestions"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 3.3.3",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html"
                             }
                         ]
                     },
                     {
                         "title": "Error Prevention (Legal, Financial, Data",
-                        "description": "",
+                        "description": " For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AA",
                         "special_cases": [
                             {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
-                        "references": [
-                            {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "type": "at_least_one",
+                                "title": "Reversible",
+                                "description": "Submissions are reversible."
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "type": "at_least_one",
+                                "title": "Checked",
+                                "description": "Data entered by the user is checked for input errors and the user is provided an opportunity to correct them."
+                            },
+                            {
+                                "type": "at_least_one",
+                                "title": "Confirmed",
+                                "description": "A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 3.3.4",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-reversible"
+                            },
+                            {
+                                "title": "Understanding 3.3.4",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html"
                             }
                         ]
                     },
                     {
                         "title": "Help",
-                        "description": "",
+                        "description": "Context-sensitive help is available.",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
-                        "special_cases": [
-                            {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
+                        "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "title": "How to Meet 3.3.5",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-context-help"
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "title": "Understanding 3.3.5",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-context-help.html"
                             }
                         ]
                     },
                     {
                         "title": "Error Prevention (All)",
-                        "description": "",
+                        "description": "For Web pages that require the user to submit information, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "AAA",
                         "special_cases": [
                             {
-                                "type": "",
-                                "title": "",
-                                "description": ""
-                            }
-                        ],
-                        "notes": [
-                            {
-                                "content": ""
-                            }
-                        ],
-                        "references": [
-                            {
-                                "title": "How to Meet ",
-                                "url": ""
+                                "type": "at_least_one",
+                                "title": "Reversible",
+                                "description": "Submissions are reversible."
                             },
                             {
-                                "title": "Understanding",
-                                "url": ""
+                                "type": "at_least_one",
+                                "title": "Checked",
+                                "description": "Data entered by the user is checked for input errors and the user is provided an opportunity to correct them."
+                            },
+                            {
+                                "type": "at_least_one",
+                                "title": "Confirmed",
+                                "description": "A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 3.3.6",
+                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-reversible-all"
+                            },
+                            {
+                                "title": "Understanding 3.3.6",
+                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible-all.html"
                             }
                         ]
                     }
@@ -1712,8 +1694,8 @@
                 "url": "https://www.w3.org/TR/WCAG20/#ensure-compat",
                 "references": [
                     {
-                        "title": "Understanding Guideline ",
-                        "url": ""
+                        "title": "Understanding Guideline 4.1",
+                        "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat.html"
                     }
                 ],
                 "success_criteria": [
@@ -1722,7 +1704,7 @@
                         "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
                         "level": "A",
-                        "special_cases": null
+                        "special_cases": null,
                         "notes": [
                             {
                                 "content": "Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete."
