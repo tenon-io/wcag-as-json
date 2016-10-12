@@ -1,0 +1,154 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": true,
+    "properties": {
+        "type": "object",
+        "required": true,
+        "properties": {
+            "ref_id": {
+                "type": "string",
+                "required": true
+            },
+            "title": {
+                "type": "string",
+                "required": true
+            },
+            "url": {
+                "type": "string",
+                "required": true
+            },
+            "description": {
+                "type": "string",
+                "required": true
+            },
+            "guidelines": {
+                "type": "array",
+                "required": true,
+                "items": [
+                    {
+                        "type": "object",
+                        "required": true,
+                        "properties": {
+                            "ref_id": {
+                                "type": "string",
+                                "required": true
+                            },
+                            "title": {
+                                "type": "string",
+                                "required": true
+                            },
+                            "url": {
+                                "type": "string",
+                                "required": true
+                            },
+                            "description": {
+                                "type": "string",
+                                "required": true
+                            },
+                            "references": {
+                                "type": "array",
+                                "required": true,
+                                "items": {
+                                    "type": "object",
+                                    "required": true,
+                                    "properties": {
+                                        "title": {
+                                            "type": "string",
+                                            "required": true
+                                        },
+                                        "url": {
+                                            "type": "string",
+                                            "required": true
+                                        }
+                                    }
+                                }
+                            },
+                            "success_criteria": {
+                                "type": "array",
+                                "required": true,
+                                "items": {
+                                    "type": "object",
+                                    "required": true,
+                                    "properties": {
+                                        "ref_id": {
+                                            "type": "string",
+                                            "required": true
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "required": true
+                                        },
+                                        "url": {
+                                            "type": "string",
+                                            "required": true
+                                        },
+                                        "description": {
+                                            "type": "string",
+                                            "required": true
+                                        },
+                                        "level": {
+                                            "type": "string",
+                                            "required": true
+                                        },
+                                        "notes": {
+                                            "type": "array",
+                                            "required": false,
+                                            "items": {
+                                                "type": "object",
+                                                "required": true,
+                                                "properties": {
+                                                    "content": {
+                                                        "type": "string",
+                                                        "required": true
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "references": {
+                                            "type": "array",
+                                            "required": true,
+                                            "items": {
+                                                "type": "object",
+                                                "required": true,
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "required": true
+                                                    },
+                                                    "url": {
+                                                        "type": "string",
+                                                        "required": true
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "special_cases": {
+                                            "type": "array",
+                                            "required": false,
+                                            "items": {
+                                                "type": "object",
+                                                "required": true,
+                                                "properties": {
+                                                    "title": {
+                                                        "type": "string",
+                                                        "required": true
+                                                    },
+                                                    "description": {
+                                                        "type": "string",
+                                                        "required": true
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
