@@ -1,10 +1,12 @@
 [
     {
+        "ref_id": "1",
         "title": "Perceivable",
         "description": "Information and user interface components must be presentable to users in ways they can perceive.",
         "url": "https://www.w3.org/TR/WCAG20/#perceivable",
         "guidelines": [
             {
+                "ref_id": "1.1",
                 "title": "Text Alternatives",
                 "description": "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.",
                 "url": "https://www.w3.org/TR/WCAG20/#text-equiv",
@@ -16,6 +18,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "1.1.1",
                         "title": "Non-text Content",
                         "description": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below. (",
                         "url": "https://www.w3.org/TR/WCAG20/#text-equiv-all",
@@ -67,6 +70,7 @@
                 ]
             },
             {
+                "ref_id": "1.2",
                 "title": "Time-based Media",
                 "description": "Provide alternatives for time-based media.",
                 "url": "https://www.w3.org/TR/WCAG20/#media-equiv",
@@ -78,6 +82,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "1.2.1",
                         "title": "Audio-only and Video-only (Prerecorded",
                         "description": "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -97,7 +102,7 @@
                         "notes": null,
                         "references": [
                             {
-                                "title": "How to Meet 1.3.1",
+                                "title": "How to Meet 1.2.1",
                                 "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-av-only-alt"
                             },
                             {
@@ -107,6 +112,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.2",
                         "title": "Captions (Prerecorded)",
                         "description": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -125,6 +131,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.3",
                         "title": "Audio Description or Media Alternative (Prerecorded)",
                         "description": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -143,6 +150,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.4",
                         "title": "Captions (Live)",
                         "description": "Captions are provided for all live audio content in synchronized media. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -161,6 +169,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.5",
                         "title": "Audio Description (Prerecorded)",
                         "description": "Audio description is provided for all prerecorded video content in synchronized media. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -179,6 +188,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.6",
                         "title": "Sign Language (Prerecorded)",
                         "description": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -197,6 +207,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.7",
                         "title": "Extended Audio Description (Prerecorded)",
                         "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -215,6 +226,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.8",
                         "title": "Media Alternative (Prerecorded)",
                         "description": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -233,6 +245,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.2.9",
                         "title": "Audio-only (Live)",
                         "description": " An alternative for time-based media that presents equivalent information for live audio-only content is provided.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -253,6 +266,7 @@
                 ]
             },
             {
+                "ref_id": "1.3",
                 "title": "Adaptable",
                 "description": "Create content that can be presented in different ways (for example simpler layout) without losing information or structure.",
                 "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation",
@@ -264,6 +278,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "1.3.1",
                         "title": "Info and Relationships",
                         "description": "Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -282,6 +297,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.3.2",
                         "title": "Meaningful Sequence",
                         "description": "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -300,6 +316,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.3.3",
                         "title": "Sensory Characteristics",
                         "description": "Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -324,6 +341,7 @@
                 ]
             },
             {
+                "ref_id": "1.4",
                 "title": "Distinguishable",
                 "description": "Make it easier for users to see and hear content including separating foreground from background.",
                 "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast",
@@ -335,6 +353,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "1.4.1",
                         "title": "Use of Color",
                         "description": "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -357,6 +376,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.2",
                         "title": "Audio Control",
                         "description": "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -379,6 +399,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.3",
                         "title": "Contrast (Minimum)",
                         "description": " The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -413,6 +434,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.4",
                         "title": "Resize text",
                         "description": "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -431,6 +453,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.5",
                         "title": "Images of Text",
                         "description": "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -464,6 +487,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.6",
                         "title": "Contrast (Enhanced)",
                         "description": "The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following: ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -498,6 +522,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.7",
                         "title": "Low or No Background Audio",
                         "description": "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true: (Level AAA)",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -535,6 +560,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.8",
                         "title": "Visual Presentation",
                         "description": "For the visual presentation of blocks of text, a mechanism is available to achieve the following:",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -579,6 +605,7 @@
                         ]
                     },
                     {
+                        "ref_id": "1.4.9",
                         "title": "Images of Text (No Exception)",
                         "description": "Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -605,11 +632,13 @@
         ]
     },
     {
+        "ref_id": "2",
         "title": "Operable",
         "description": "User interface components and navigation must be operable.",
         "url": "https://www.w3.org/TR/WCAG20/#operable",
         "guidelines": [
             {
+                "ref_id": "2.1",
                 "title": "Keyboard Accessible",
                 "description": "Make all functionality available from a keyboard.",
                 "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation",
@@ -621,6 +650,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "2.1.1",
                         "title": "Keyboard",
                         "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -646,6 +676,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.1.2",
                         "title": "No Keyboard Trap",
                         "description": "If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -668,6 +699,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.1.3",
                         "title": "Keyboard (No Exception)",
                         "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -688,6 +720,7 @@
                 ]
             },
             {
+                "ref_id": "2.2",
                 "title": "Enough Time",
                 "description": "Provide users enough time to read and use content.",
                 "url": "https://www.w3.org/TR/WCAG20/#time-limits",
@@ -699,6 +732,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "2.2.1",
                         "title": "Timing Adjustable",
                         "description": "For each time limit that is set by the content, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -752,6 +786,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.2.2",
                         "title": "Pause, Stop, Hide",
                         "description": "For moving, blinking, scrolling, or auto-updating information, all of the following are true:",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -794,6 +829,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.2.3",
                         "title": "No Timing",
                         "description": "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -812,6 +848,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.2.4",
                         "title": "Interruptions",
                         "description": "Interruptions can be postponed or suppressed by the user, except interruptions involving an emergency.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -830,6 +867,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.2.5",
                         "title": "Re-authenticating",
                         "description": "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -850,6 +888,7 @@
                 ]
             },
             {
+                "ref_id": "2.3",
                 "title": "Seizures",
                 "description": "Do not design content in a way that is known to cause seizures.",
                 "url": "https://www.w3.org/TR/WCAG20/#seizure",
@@ -861,6 +900,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "2.3.1",
                         "title": "Three Flashes or Below Threshold",
                         "description": "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -883,6 +923,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.3.2",
                         "title": "Three Flashes",
                         "description": "Web pages do not contain anything that flashes more than three times in any one second period.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -903,6 +944,7 @@
                 ]
             },
             {
+                "ref_id": "2.4",
                 "title": "Navigable",
                 "description": "Provide ways to help users navigate, find content, and determine where they are.",
                 "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms",
@@ -914,6 +956,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "2.4.1",
                         "title": "Bypass Blocks",
                         "description": "A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -932,6 +975,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.2",
                         "title": "Page Titled",
                         "description": "Web pages have titles that describe topic or purpose. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -950,6 +994,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.3",
                         "title": "Focus Order",
                         "description": " If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -968,6 +1013,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.4",
                         "title": "Link Purpose (In Context)",
                         "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -986,6 +1032,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.5",
                         "title": "Multiple Ways",
                         "description": "More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1004,6 +1051,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.6",
                         "title": "Headings and Labels",
                         "description": "Headings and labels describe topic or purpose.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1022,6 +1070,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.7",
                         "title": "Focus Visible",
                         "description": "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1040,6 +1089,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.8",
                         "title": "Location",
                         "description": "Information about the user's location within a set of Web pages is available. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1058,6 +1108,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.9",
                         "title": "Link Purpose (Link Only)",
                         "description": "A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1076,6 +1127,7 @@
                         ]
                     },
                     {
+                        "ref_id": "2.4.10",
                         "title": "Section Headings",
                         "description": "Section headings are used to organize the content. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1105,11 +1157,13 @@
         ]
     },
     {
+        "ref_id": "3",
         "title": "Understandable",
         "description": "Information and the operation of user interface must be understandable.",
         "url": "https://www.w3.org/TR/WCAG20/#understandable",
         "guidelines": [
             {
+                "ref_id": "3.1",
                 "title": "Readable",
                 "description": "Make text content readable and understandable.",
                 "url": "https://www.w3.org/TR/WCAG20/#meaning",
@@ -1121,6 +1175,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "3.1.1",
                         "title": "Language of Page",
                         "description": "The default human language of each Web page can be programmatically determined.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1139,6 +1194,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.1.2",
                         "title": "Language of Parts",
                         "description": "The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1157,6 +1213,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.1.3",
                         "title": "Unusual Words",
                         "description": "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1175,6 +1232,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.1.4",
                         "title": "Abbreviations",
                         "description": "A mechanism for identifying the expanded form or meaning of abbreviations is available.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1193,6 +1251,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.1.5",
                         "title": "Reading Level",
                         "description": "When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1211,6 +1270,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.1.6",
                         "title": "Pronunciation",
                         "description": "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1231,6 +1291,7 @@
                 ]
             },
             {
+                "ref_id": "3.2",
                 "title": "Predictable",
                 "description": "Make Web pages appear and operate in predictable ways.",
                 "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior",
@@ -1242,6 +1303,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "3.2.1",
                         "title": "On Focus",
                         "description": "When any component receives focus, it does not initiate a change of context. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1260,6 +1322,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.2.2",
                         "title": "On Input",
                         "description": "Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1278,6 +1341,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.2.3",
                         "title": "Consistent Navigation",
                         "description": "Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1296,6 +1360,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.2.4",
                         "title": "Consistent Identification",
                         "description": "Components that have the same functionality within a set of Web pages are identified consistently.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1314,6 +1379,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.2.5",
                         "title": "Change on Request",
                         "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1334,6 +1400,7 @@
                 ]
             },
             {
+                "ref_id": "3.3",
                 "title": "Input Assistance",
                 "description": "Help users avoid and correct mistakes.",
                 "url": "https://www.w3.org/TR/WCAG20/#minimize-error",
@@ -1345,6 +1412,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "3.3.1",
                         "title": "Error Identification",
                         "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1363,6 +1431,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.3.2",
                         "title": "Labels or Instructions",
                         "description": "Labels or instructions are provided when content requires user input.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1381,6 +1450,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.3.3",
                         "title": "Error Suggestion",
                         "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1399,6 +1469,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.3.4",
                         "title": "Error Prevention (Legal, Financial, Data",
                         "description": " For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1433,6 +1504,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.3.5",
                         "title": "Help",
                         "description": "Context-sensitive help is available.",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1451,6 +1523,7 @@
                         ]
                     },
                     {
+                        "ref_id": "3.3.6",
                         "title": "Error Prevention (All)",
                         "description": "For Web pages that require the user to submit information, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1489,11 +1562,13 @@
         ]
     },
     {
+        "ref_id": "4",
         "title": "Robust",
         "description": "Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.",
         "url": "https://www.w3.org/TR/WCAG20/#robust",
         "guidelines": [
             {
+                "ref_id": "4.1",
                 "title": "Compatible",
                 "description": "Maximize compatibility with current and future user agents, including assistive technologies.",
                 "url": "https://www.w3.org/TR/WCAG20/#ensure-compat",
@@ -1505,6 +1580,7 @@
                 ],
                 "success_criteria": [
                     {
+                        "ref_id": "4.1.1",
                         "title": "Parsing",
                         "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. ",
                         "url": "https://www.w3.org/TR/WCAG20/",
@@ -1527,6 +1603,7 @@
                         ]
                     },
                     {
+                        "ref_id": "4.1.2",
                         "title": "Name, Role, Value",
                         "description": "For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.",
                         "url": "https://www.w3.org/TR/WCAG20/#ensure-compat-rsv",
