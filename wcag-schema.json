@@ -4,17 +4,34 @@
     "id": "http://jsonschema.net",
     "description": "A JSON representation of WCAG 2.0",
     "properties": {
-        "type": "array",
+        "type": "object",
         "properties": {
+            "required": [
+                "ref_id",
+                "title",
+                "url",
+                "description",
+                "guidelines"
+            ],
             "ref_id": {
                 "type": "string",
                 "description": "Unique numeric identifier for the Principle",
-                "enum": ["1", "2", "3", "4"]
+                "enum": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
             },
             "title": {
                 "type": "string",
                 "description": "Title for the Principle",
-                "enum": ["Perceivable", "Operable", "Understandable", "Robust"]
+                "enum": [
+                    "Perceivable",
+                    "Operable",
+                    "Understandable",
+                    "Robust"
+                ]
             },
             "url": {
                 "type": "string",
@@ -28,10 +45,31 @@
                 "type": "array",
                 "description": "Array of guidelines which apply to the specific principle",
                 "properties": {
+                    "required": [
+                        "ref_id",
+                        "title",
+                        "url",
+                        "description",
+                        "references",
+                        "success_criteria"
+                    ],
                     "ref_id": {
                         "type": "string",
-                        "description": "Unique identifier for the Guideline"
-                        "enum": ["1.1", "1.2", "1.3", "1.4", "2.1", "2.2", "2.3", "2.4", "3.1", "3.2", "3.3", "4.1"]
+                        "description": "Unique identifier for the Guideline",
+                        "enum": [
+                            "1.1",
+                            "1.2",
+                            "1.3",
+                            "1.4",
+                            "2.1",
+                            "2.2",
+                            "2.3",
+                            "2.4",
+                            "3.1",
+                            "3.2",
+                            "3.3",
+                            "4.1"
+                        ]
                     },
                     "title": {
                         "type": "string",
@@ -47,26 +85,34 @@
                     },
                     "references": {
                         "type": "array",
-                            "description": "Array of objects for each reference applicable to this Guideline",
-                            "properties": {
-                                "title": {
-                                    "type": "string",
-                                    "description": "Name or title for the external reference"
-                                },
-                                "url": {
-                                    "type": "string",
-                                    "description": "Fully qualified URL at which the reference information exists."
-                                }
+                        "description": "Array of objects for each reference applicable to this Guideline",
+                        "properties": {
+                            "title": {
+                                "type": "string",
+                                "description": "Name or title for the external reference"
                             },
-                            "required": [
-                                "title",
-                                "url"
-                            ]
+                            "url": {
+                                "type": "string",
+                                "description": "Fully qualified URL at which the reference information exists."
+                            }
+                        },
+                        "required": [
+                            "title",
+                            "url"
+                        ]
                     },
                     "success_criteria": {
                         "type": "array",
                         "description": "Title for the Success Criteria",
                         "properties": {
+                            "required": [
+                                "ref_id",
+                                "title",
+                                "description",
+                                "url",
+                                "level",
+                                "references"
+                            ],
                             "ref_id": {
                                 "type": "string",
                                 "description": "Unique identifier for the Success Criteria"
@@ -86,7 +132,29 @@
                             "level": {
                                 "type": "string",
                                 "description": "Indicates the appropriate conformance level for this success criteria",
-                                "level": ["A", "AA", "AAA"]
+                                "enum": [
+                                    "A",
+                                    "AA",
+                                    "AAA"
+                                ]
+                            },
+                            "references": {
+                                "type": "array",
+                                "description": "Array of references relating to this success criteria",
+                                "properties": {
+                                    "required": [
+                                        "title",
+                                        "url"
+                                    ],
+                                    "title": {
+                                        "type": "string",
+                                        "description": "Name or title of the external reference resource"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "description": "Fully qualified URL at which the reference information exists."
+                                    }
+                                }
                             },
                             "notes": {
                                 "type": "array",
@@ -98,28 +166,13 @@
                                     }
                                 }
                             },
-                            "references": {
-                                "type": "array",
-                                "description": "Array of references relating to this success criteria",
-                                "properties": {
-                                    "title": {
-                                        "type": "string",
-                                        "description": "Name or title of the external reference resource"
-                                    },
-                                    "url": {
-                                        "type": "string",
-                                        "description": "Fully qualified URL at which the reference information exists."
-                                    },
-                                    "required": [
-                                        "title",
-                                        "url"
-                                    ]
-                                }
-                            },
                             "special_cases": {
                                 "type": "array",
                                 "properties": {
                                     "type": "string",
+                                    "required": [
+                                        "title"
+                                    ],
                                     "title": {
                                         "type": "string",
                                         "description": "Title for the special case"
@@ -128,7 +181,12 @@
                                         "type": "string",
                                         "description": "Full text of the description"
                                     },
-                                    "enum": [null, "exception", "all_true", "at_least_one"]
+                                    "enum": [
+                                        null,
+                                        "exception",
+                                        "all_true",
+                                        "at_least_one"
+                                    ],
                                 }
                             }
                         }
