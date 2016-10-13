@@ -2,152 +2,138 @@
     "type": "object",
     "$schema": "http://json-schema.org/draft-03/schema",
     "id": "http://jsonschema.net",
-    "required": true,
+    "description": "A JSON representation of WCAG 2.0",
     "properties": {
-        "type": "object",
-        "required": true,
+        "type": "array",
         "properties": {
             "ref_id": {
                 "type": "string",
-                "required": true
+                "description": "Unique numeric identifier for the Principle",
+                "enum": ["1", "2", "3", "4"]
             },
             "title": {
                 "type": "string",
-                "required": true
+                "description": "Title for the Principle",
+                "enum": ["Perceivable", "Operable", "Understandable", "Robust"]
             },
             "url": {
                 "type": "string",
-                "required": true
+                "description": "Fully-qualified URI at which you can find information about this Principle"
             },
             "description": {
                 "type": "string",
-                "required": true
+                "description": "Text description of the Principle"
             },
             "guidelines": {
                 "type": "array",
-                "required": true,
-                "items": [
-                    {
-                        "type": "object",
-                        "required": true,
+                "description": "Array of guidelines which apply to the specific principle",
+                "properties": {
+                    "ref_id": {
+                        "type": "string",
+                        "description": "Unique identifier for the Guideline"
+                        "enum": ["1.1", "1.2", "1.3", "1.4", "2.1", "2.2", "2.3", "2.4", "3.1", "3.2", "3.3", "4.1"]
+                    },
+                    "title": {
+                        "type": "string",
+                        "description": "Title for the Guideline"
+                    },
+                    "url": {
+                        "type": "string",
+                        "description": "Fully-qualified URI at which you can find information about this Guideline"
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Text description of this guideline"
+                    },
+                    "references": {
+                        "type": "array",
+                            "description": "Array of objects for each reference applicable to this Guideline",
+                            "properties": {
+                                "title": {
+                                    "type": "string",
+                                    "description": "Name or title for the external reference"
+                                },
+                                "url": {
+                                    "type": "string",
+                                    "description": "Fully qualified URL at which the reference information exists."
+                                }
+                            },
+                            "required": [
+                                "title",
+                                "url"
+                            ]
+                    },
+                    "success_criteria": {
+                        "type": "array",
+                        "description": "Title for the Success Criteria",
                         "properties": {
                             "ref_id": {
                                 "type": "string",
-                                "required": true
+                                "description": "Unique identifier for the Success Criteria"
                             },
                             "title": {
                                 "type": "string",
-                                "required": true
-                            },
-                            "url": {
-                                "type": "string",
-                                "required": true
+                                "description": "High level title for the Success Criteria"
                             },
                             "description": {
                                 "type": "string",
-                                "required": true
+                                "description": "Full text (minus title) for the Success Criteria"
                             },
-                            "references": {
+                            "url": {
+                                "type": "string",
+                                "description": "Fully-qualified URI at which you can find information about this Success Criteria"
+                            },
+                            "level": {
+                                "type": "string",
+                                "description": "Indicates the appropriate conformance level for this success criteria",
+                                "level": ["A", "AA", "AAA"]
+                            },
+                            "notes": {
                                 "type": "array",
-                                "required": true,
-                                "items": {
-                                    "type": "object",
-                                    "required": true,
-                                    "properties": {
-                                        "title": {
-                                            "type": "string",
-                                            "required": true
-                                        },
-                                        "url": {
-                                            "type": "string",
-                                            "required": true
-                                        }
+                                "description": "Any additional notes applicable to the Success Criteria",
+                                "properties": {
+                                    "content": {
+                                        "type": "string",
+                                        "description": "Full text of the note(s)"
                                     }
                                 }
                             },
-                            "success_criteria": {
+                            "references": {
                                 "type": "array",
-                                "required": true,
-                                "items": {
-                                    "type": "object",
-                                    "required": true,
-                                    "properties": {
-                                        "ref_id": {
-                                            "type": "string",
-                                            "required": true
-                                        },
-                                        "title": {
-                                            "type": "string",
-                                            "required": true
-                                        },
-                                        "url": {
-                                            "type": "string",
-                                            "required": true
-                                        },
-                                        "description": {
-                                            "type": "string",
-                                            "required": true
-                                        },
-                                        "level": {
-                                            "type": "string",
-                                            "required": true
-                                        },
-                                        "notes": {
-                                            "type": "array",
-                                            "required": false,
-                                            "items": {
-                                                "type": "object",
-                                                "required": true,
-                                                "properties": {
-                                                    "content": {
-                                                        "type": "string",
-                                                        "required": true
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        "references": {
-                                            "type": "array",
-                                            "required": true,
-                                            "items": {
-                                                "type": "object",
-                                                "required": true,
-                                                "properties": {
-                                                    "title": {
-                                                        "type": "string",
-                                                        "required": true
-                                                    },
-                                                    "url": {
-                                                        "type": "string",
-                                                        "required": true
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        "special_cases": {
-                                            "type": "array",
-                                            "required": false,
-                                            "items": {
-                                                "type": "object",
-                                                "required": true,
-                                                "properties": {
-                                                    "title": {
-                                                        "type": "string",
-                                                        "required": true
-                                                    },
-                                                    "description": {
-                                                        "type": "string",
-                                                        "required": true
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
+                                "description": "Array of references relating to this success criteria",
+                                "properties": {
+                                    "title": {
+                                        "type": "string",
+                                        "description": "Name or title of the external reference resource"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "description": "Fully qualified URL at which the reference information exists."
+                                    },
+                                    "required": [
+                                        "title",
+                                        "url"
+                                    ]
+                                }
+                            },
+                            "special_cases": {
+                                "type": "array",
+                                "properties": {
+                                    "type": "string",
+                                    "title": {
+                                        "type": "string",
+                                        "description": "Title for the special case"
+                                    },
+                                    "description": {
+                                        "type": "string",
+                                        "description": "Full text of the description"
+                                    },
+                                    "enum": [null, "exception", "all_true", "at_least_one"]
                                 }
                             }
                         }
                     }
-                ]
+                }
             }
         }
     }
