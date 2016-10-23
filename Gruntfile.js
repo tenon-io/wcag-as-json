@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 
         jsonlint: {
             configFiles: {
-                src: ['wcag.json', 'package.json', '.jshintrc']
+                src: ['wcag.json', 'wcag-schema.json', 'package.json', '.jshintrc']
             }
         },
 
