@@ -186,7 +186,7 @@
                                         "exception",
                                         "all_true",
                                         "at_least_one"
-                                    ],
+                                    ]
                                 }
                             }
                         }
