@@ -1,4 +1,4 @@
-#WCAG as JSON
+# WCAG as JSON
 
 This is a JSON formatted version of WCAG 2.0
 
@@ -45,7 +45,7 @@ A full WCAG SC Entry looks like this:
 
 ```
 
-##License
+## License
 The JSON formatted document has an MIT license.
 
 This software or document includes material copied from or derived from Web Content Accessibility Guidelines (WCAG) 2.0 https://www.w3.org/TR/WCAG20/. Copyright © 2008 W3C® (MIT, ERCIM, Keio, Beihang).
