@@ -85,7 +85,7 @@
                         "ref_id": "1.2.1",
                         "title": "Audio-only and Video-only (Prerecorded",
                         "description": "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such.",
-                        "url": "https://www.w3.org/TR/WCAG20/",
+                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt",
                         "level": "A",
                         "special_cases": [
                             {
@@ -603,7 +603,7 @@
                         "ref_id": "1.4.9",
                         "title": "Images of Text (No Exception)",
                         "description": "Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.",
-                        "url": "https://www.w3.org/TR/WCAG20/",
+                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": [
