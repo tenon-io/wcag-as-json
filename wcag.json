@@ -20,7 +20,7 @@
                     {
                         "ref_id": "1.1.1",
                         "title": "Non-text Content",
-                        "description": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below. (",
+                        "description": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.",
                         "url": "https://www.w3.org/TR/WCAG20/#text-equiv-all",
                         "level": "A",
                         "special_cases": [
@@ -31,7 +31,7 @@
                             },
                             {
                                 "type": "exception",
-                                "title": "Time-Based Media",
+                                "title": "Time-based Media",
                                 "description": "If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer to Guideline 1.2 for additional requirements for media.)"
                             },
                             {
@@ -83,7 +83,7 @@
                 "success_criteria": [
                     {
                         "ref_id": "1.2.1",
-                        "title": "Audio-only and Video-only (Prerecorded",
+                        "title": "Audio-only and Video-only (Prerecorded)",
                         "description": "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt",
                         "level": "A",
@@ -96,7 +96,7 @@
                             {
                                 "type": "all_true",
                                 "title": "Prerecorded Video-only",
-                                "description": "Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content"
+                                "description": "Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content."
                             }
                         ],
                         "notes": null,
@@ -114,7 +114,7 @@
                     {
                         "ref_id": "1.2.2",
                         "title": "Captions (Prerecorded)",
-                        "description": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such",
+                        "description": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-captions",
                         "level": "A",
                         "special_cases": null,
@@ -133,7 +133,7 @@
                     {
                         "ref_id": "1.2.3",
                         "title": "Audio Description or Media Alternative (Prerecorded)",
-                        "description": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such",
+                        "description": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc",
                         "level": "A",
                         "special_cases": null,
@@ -152,7 +152,7 @@
                     {
                         "ref_id": "1.2.4",
                         "title": "Captions (Live)",
-                        "description": "Captions are provided for all live audio content in synchronized media",
+                        "description": "Captions are provided for all live audio content in synchronized media.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions",
                         "level": "AA",
                         "special_cases": null,
@@ -171,7 +171,7 @@
                     {
                         "ref_id": "1.2.5",
                         "title": "Audio Description (Prerecorded)",
-                        "description": "Audio description is provided for all prerecorded video content in synchronized media",
+                        "description": "Audio description is provided for all prerecorded video content in synchronized media.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only",
                         "level": "AA",
                         "special_cases": null,
@@ -209,7 +209,7 @@
                     {
                         "ref_id": "1.2.7",
                         "title": "Extended Audio Description (Prerecorded)",
-                        "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media",
+                        "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-extended-ad",
                         "level": "AAA",
                         "special_cases": null,
@@ -228,7 +228,7 @@
                     {
                         "ref_id": "1.2.8",
                         "title": "Media Alternative (Prerecorded)",
-                        "description": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media",
+                        "description": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media.",
                         "url": "https://www.w3.org/TR/WCAG20/#media-equiv-text-doc",
                         "level": "AAA",
                         "special_cases": null,
@@ -318,7 +318,7 @@
                     {
                         "ref_id": "1.3.3",
                         "title": "Sensory Characteristics",
-                        "description": "Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound",
+                        "description": "Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.",
                         "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation-understanding",
                         "level": "A",
                         "special_cases": null,
@@ -378,13 +378,13 @@
                     {
                         "ref_id": "1.4.2",
                         "title": "Audio Control",
-                        "description": "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)",
+                        "description": "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.",
                         "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
                             {
-                                "content": "Note: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
+                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
                             }
                         ],
                         "references": [
@@ -401,14 +401,14 @@
                     {
                         "ref_id": "1.4.3",
                         "title": "Contrast (Minimum)",
-                        "description": " The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: ",
+                        "description": " The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:",
                         "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast",
                         "level": "AA",
                         "special_cases": [
                             {
                                 "type": "exception",
                                 "title": "Large Text",
-                                "description": "Large-scale text and images of large-scale text have a contrast ratio of at least 3:1"
+                                "description": "Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;"
                             },
                             {
                                 "type": "exception",
@@ -436,7 +436,7 @@
                     {
                         "ref_id": "1.4.4",
                         "title": "Resize text",
-                        "description": "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality",
+                        "description": "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.",
                         "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale",
                         "level": "AA",
                         "special_cases": null,
@@ -455,24 +455,24 @@
                     {
                         "ref_id": "1.4.5",
                         "title": "Images of Text",
-                        "description": "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following",
+                        "description": "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:",
                         "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation",
                         "level": "AA",
                         "special_cases": [
                             {
                                 "type": "exception",
                                 "title": "Customizable",
-                                "description": "The image of text can be visually customized to the user's requirements"
+                                "description": "The image of text can be visually customized to the user's requirements;"
                             },
                             {
                                 "type": "exception",
                                 "title": "Essential",
-                                "description": "A particular presentation of text is essential to the information being conveyed"
+                                "description": "A particular presentation of text is essential to the information being conveyed."
                             }
                         ],
                         "notes": [
                             {
-                                "content": "Logotypes (text that is part of a logo or brand name) are considered essential"
+                                "content": "Logotypes (text that is part of a logo or brand name) are considered essential."
                             }
                         ],
                         "references": [
@@ -496,12 +496,12 @@
                             {
                                 "type": "exception",
                                 "title": "Large Text",
-                                "description": "Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1"
+                                "description": "Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1;"
                             },
                             {
                                 "type": "exception",
-                                "title": "Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.",
-                                "description": "Incidental"
+                                "title": "Incidental",
+                                "description": "Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement."
                             },
                             {
                                 "type": "exception",
@@ -524,7 +524,7 @@
                     {
                         "ref_id": "1.4.7",
                         "title": "Low or No Background Audio",
-                        "description": "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true: (Level AAA)",
+                        "description": "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio",
                         "level": "AAA",
                         "special_cases": [
@@ -572,7 +572,7 @@
                             },
                             {
                                 "type": "all_true",
-                                "title": "Width is no more than 80 characters or glyphs (40 if CJK)"
+                                "title": "Width is no more than 80 characters or glyphs (40 if CJK)."
                             },
                             {
                                 "type": "all_true",
@@ -647,7 +647,7 @@
                     {
                         "ref_id": "2.1.1",
                         "title": "Keyboard",
-                        "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints",
+                        "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.",
                         "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable",
                         "level": "A",
                         "special_cases": null,
@@ -826,7 +826,7 @@
                     {
                         "ref_id": "2.2.3",
                         "title": "No Timing",
-                        "description": "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events",
+                        "description": "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events.",
                         "url": "https://www.w3.org/TR/WCAG20/#time-limits-no-exceptions",
                         "level": "AAA",
                         "special_cases": null,
@@ -897,7 +897,7 @@
                     {
                         "ref_id": "2.3.1",
                         "title": "Three Flashes or Below Threshold",
-                        "description": "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds",
+                        "description": "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.",
                         "url": "https://www.w3.org/TR/WCAG20/#seizure-does-not-violate",
                         "level": "A",
                         "special_cases": null,
@@ -991,7 +991,7 @@
                     {
                         "ref_id": "2.4.3",
                         "title": "Focus Order",
-                        "description": " If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability",
+                        "description": "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.",
                         "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order",
                         "level": "A",
                         "special_cases": null,
@@ -1010,7 +1010,7 @@
                     {
                         "ref_id": "2.4.4",
                         "title": "Link Purpose (In Context)",
-                        "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general",
+                        "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.",
                         "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs",
                         "level": "A",
                         "special_cases": null,
@@ -1086,7 +1086,7 @@
                     {
                         "ref_id": "2.4.8",
                         "title": "Location",
-                        "description": "Information about the user's location within a set of Web pages is available",
+                        "description": "Information about the user's location within a set of Web pages is available.",
                         "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-location",
                         "level": "AAA",
                         "special_cases": null,
@@ -1124,7 +1124,7 @@
                     {
                         "ref_id": "2.4.10",
                         "title": "Section Headings",
-                        "description": "Section headings are used to organize the content",
+                        "description": "Section headings are used to organize the content.",
                         "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings",
                         "level": "AAA",
                         "special_cases": null,
@@ -1210,7 +1210,7 @@
                     {
                         "ref_id": "3.1.3",
                         "title": "Unusual Words",
-                        "description": "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon",
+                        "description": "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon.",
                         "url": "https://www.w3.org/TR/WCAG20/#meaning-idioms",
                         "level": "AAA",
                         "special_cases": null,
@@ -1267,7 +1267,7 @@
                     {
                         "ref_id": "3.1.6",
                         "title": "Pronunciation",
-                        "description": "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation",
+                        "description": "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation.",
                         "url": "https://www.w3.org/TR/WCAG20/#meaning-pronunciation",
                         "level": "AAA",
                         "special_cases": null,
@@ -1300,7 +1300,7 @@
                     {
                         "ref_id": "3.2.1",
                         "title": "On Focus",
-                        "description": "When any component receives focus, it does not initiate a change of context",
+                        "description": "When any component receives focus, it does not initiate a change of context.",
                         "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus",
                         "level": "A",
                         "special_cases": null,
@@ -1338,7 +1338,7 @@
                     {
                         "ref_id": "3.2.3",
                         "title": "Consistent Navigation",
-                        "description": "Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user",
+                        "description": "Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.",
                         "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations",
                         "level": "AA",
                         "special_cases": null,
@@ -1376,7 +1376,7 @@
                     {
                         "ref_id": "3.2.5",
                         "title": "Change on Request",
-                        "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes",
+                        "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes.",
                         "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context",
                         "level": "AAA",
                         "special_cases": null,
@@ -1409,7 +1409,7 @@
                     {
                         "ref_id": "3.3.1",
                         "title": "Error Identification",
-                        "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text",
+                        "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.",
                         "url": "https://www.w3.org/TR/WCAG20/#minimize-error-identified",
                         "level": "A",
                         "special_cases": null,
@@ -1447,7 +1447,7 @@
                     {
                         "ref_id": "3.3.3",
                         "title": "Error Suggestion",
-                        "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content",
+                        "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.",
                         "url": "https://www.w3.org/TR/WCAG20/#minimize-error-suggestions",
                         "level": "AA",
                         "special_cases": null,
@@ -1465,7 +1465,7 @@
                     },
                     {
                         "ref_id": "3.3.4",
-                        "title": "Error Prevention (Legal, Financial, Data",
+                        "title": "Error Prevention (Legal, Financial, Data)",
                         "description": " For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:",
                         "url": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible",
                         "level": "AA",
@@ -1577,7 +1577,7 @@
                     {
                         "ref_id": "4.1.1",
                         "title": "Parsing",
-                        "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features",
+                        "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.",
                         "url": "https://www.w3.org/TR/WCAG20/#ensure-compat-parses",
                         "level": "A",
                         "special_cases": null,
