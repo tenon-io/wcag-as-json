@@ -9,7 +9,7 @@
                 "ref_id": "1.1",
                 "title": "Text Alternatives",
                 "description": "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.",
-                "url": "https://www.w3.org/TR/WCAG20/#text-equiv",
+                "url": "https://www.w3.org/TR/WCAG21/#text-alternatives",
                 "references": [
                     {
                         "title": "Understanding Guideline 1.1",
@@ -73,7 +73,7 @@
                 "ref_id": "1.2",
                 "title": "Time-based Media",
                 "description": "Provide alternatives for time-based media.",
-                "url": "https://www.w3.org/TR/WCAG20/#media-equiv",
+                "url": "https://www.w3.org/TR/WCAG21/#time-based-media",
                 "references": [
                     {
                         "title": "Understanding Guideline 1.2",
@@ -269,7 +269,7 @@
                 "ref_id": "1.3",
                 "title": "Adaptable",
                 "description": "Create content that can be presented in different ways (for example simpler layout) without losing information or structure.",
-                "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation",
+                "url": "https://www.w3.org/TR/WCAG21/#adaptable",
                 "references": [
                     {
                         "title": "Understanding Guideline 1.3",
@@ -344,7 +344,7 @@
                 "ref_id": "1.4",
                 "title": "Distinguishable",
                 "description": "Make it easier for users to see and hear content including separating foreground from background.",
-                "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast",
+                "url": "https://www.w3.org/TR/WCAG21/#distinguishable",
                 "references": [
                     {
                         "title": "Understanding Guideline 1.4",
@@ -636,7 +636,7 @@
                 "ref_id": "2.1",
                 "title": "Keyboard Accessible",
                 "description": "Make all functionality available from a keyboard.",
-                "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation",
+                "url": "https://www.w3.org/TR/WCAG21/#keyboard-accessible",
                 "references": [
                     {
                         "title": "Understanding Guideline 2.1",
@@ -718,7 +718,7 @@
                 "ref_id": "2.2",
                 "title": "Enough Time",
                 "description": "Provide users enough time to read and use content.",
-                "url": "https://www.w3.org/TR/WCAG20/#time-limits",
+                "url": "https://www.w3.org/TR/WCAG21/#enough-time",
                 "references": [
                     {
                         "title": "Understanding Guideline 2.2",
@@ -886,7 +886,7 @@
                 "ref_id": "2.3",
                 "title": "Seizures",
                 "description": "Do not design content in a way that is known to cause seizures.",
-                "url": "https://www.w3.org/TR/WCAG20/#seizure",
+                "url": "https://www.w3.org/TR/WCAG21/#seizures-and-physical-reactions",
                 "references": [
                     {
                         "title": "Understanding Guideline 2.3",
@@ -942,7 +942,7 @@
                 "ref_id": "2.4",
                 "title": "Navigable",
                 "description": "Provide ways to help users navigate, find content, and determine where they are.",
-                "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms",
+                "url": "https://www.w3.org/TR/WCAG21/#navigable",
                 "references": [
                     {
                         "title": "Understanding Guideline 2.4",
@@ -1161,7 +1161,7 @@
                 "ref_id": "3.1",
                 "title": "Readable",
                 "description": "Make text content readable and understandable.",
-                "url": "https://www.w3.org/TR/WCAG20/#meaning",
+                "url": "https://www.w3.org/TR/WCAG21/#readable",
                 "references": [
                     {
                         "title": "Understanding Guideline 3.1",
@@ -1289,7 +1289,7 @@
                 "ref_id": "3.2",
                 "title": "Predictable",
                 "description": "Make Web pages appear and operate in predictable ways.",
-                "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior",
+                "url": "https://www.w3.org/TR/WCAG21/#predictable",
                 "references": [
                     {
                         "title": "Understanding Guideline 3.2",
@@ -1398,7 +1398,7 @@
                 "ref_id": "3.3",
                 "title": "Input Assistance",
                 "description": "Help users avoid and correct mistakes.",
-                "url": "https://www.w3.org/TR/WCAG20/#minimize-error",
+                "url": "https://www.w3.org/TR/WCAG21/#input-assistance",
                 "references": [
                     {
                         "title": "Understanding Guideline 3.3",
@@ -1566,7 +1566,7 @@
                 "ref_id": "4.1",
                 "title": "Compatible",
                 "description": "Maximize compatibility with current and future user agents, including assistive technologies.",
-                "url": "https://www.w3.org/TR/WCAG20/#ensure-compat",
+                "url": "https://www.w3.org/TR/WCAG21/#compatible",
                 "references": [
                     {
                         "title": "Understanding Guideline 4.1",
