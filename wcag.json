@@ -1174,18 +1174,18 @@
                         "ref_id": "3.1.1",
                         "title": "Language of Page",
                         "description": "The default human language of each Web page can be programmatically determined.",
-                        "url": "https://www.w3.org/TR/WCAG20/#meaning-doc-lang-id",
+                        "url": "https://www.w3.org/TR/WCAG21/#language-of-page",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.1.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-doc-lang-id"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-page"
                             },
                             {
                                 "title": "Understanding 3.1.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html"
                             }
                         ]
                     },
@@ -1193,18 +1193,18 @@
                         "ref_id": "3.1.2",
                         "title": "Language of Parts",
                         "description": "The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.",
-                        "url": "https://www.w3.org/TR/WCAG20/#meaning-other-lang-id",
+                        "url": "https://www.w3.org/TR/WCAG21/#language-of-parts",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.1.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-other-lang-id"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts"
                             },
                             {
                                 "title": "Understanding 3.1.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html"
                             }
                         ]
                     },
@@ -1212,18 +1212,18 @@
                         "ref_id": "3.1.3",
                         "title": "Unusual Words",
                         "description": "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon.",
-                        "url": "https://www.w3.org/TR/WCAG20/#meaning-idioms",
+                        "url": "https://www.w3.org/TR/WCAG21/#unusual-words",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.1.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-idioms"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#unusual-words"
                             },
                             {
                                 "title": "Understanding 3.1.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-idioms.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html"
                             }
                         ]
                     },
@@ -1231,18 +1231,18 @@
                         "ref_id": "3.1.4",
                         "title": "Abbreviations",
                         "description": "A mechanism for identifying the expanded form or meaning of abbreviations is available.",
-                        "url": "https://www.w3.org/TR/WCAG20/#meaning-located",
+                        "url": "https://www.w3.org/TR/WCAG21/#abbreviations",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.1.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-located"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#abbreviations"
                             },
                             {
                                 "title": "Understanding 3.1.4",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html"
                             }
                         ]
                     },
@@ -1250,18 +1250,18 @@
                         "ref_id": "3.1.5",
                         "title": "Reading Level",
                         "description": "When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.",
-                        "url": "https://www.w3.org/TR/WCAG20/#meaning-supplements",
+                        "url": "https://www.w3.org/TR/WCAG21/#reading-level",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.1.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-supplements"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#reading-level"
                             },
                             {
                                 "title": "Understanding 3.1.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html"
                             }
                         ]
                     },
@@ -1269,18 +1269,18 @@
                         "ref_id": "3.1.6",
                         "title": "Pronunciation",
                         "description": "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation.",
-                        "url": "https://www.w3.org/TR/WCAG20/#meaning-pronunciation",
+                        "url": "https://www.w3.org/TR/WCAG21/#pronunciation",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.1.6",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-pronunciation"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#pronunciation"
                             },
                             {
                                 "title": "Understanding 3.1.6",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-pronunciation.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/pronunciation.html"
                             }
                         ]
                     }
@@ -1302,18 +1302,18 @@
                         "ref_id": "3.2.1",
                         "title": "On Focus",
                         "description": "When any component receives focus, it does not initiate a change of context.",
-                        "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus",
+                        "url": "https://www.w3.org/TR/WCAG21/#on-focus",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.2.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-consistent-behavior-receive-focus"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#on-focus"
                             },
                             {
                                 "title": "Understanding 3.2.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html"
                             }
                         ]
                     },
@@ -1321,18 +1321,18 @@
                         "ref_id": "3.2.2",
                         "title": "On Input",
                         "description": "Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.",
-                        "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change",
+                        "url": "https://www.w3.org/TR/WCAG21/#on-input",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.2.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-consistent-behavior-unpredictable-change"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#on-input"
                             },
                             {
                                 "title": "Understanding 3.2.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/on-input.html"
                             }
                         ]
                     },
@@ -1340,18 +1340,18 @@
                         "ref_id": "3.2.3",
                         "title": "Consistent Navigation",
                         "description": "Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.",
-                        "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations",
+                        "url": "https://www.w3.org/TR/WCAG21/#consistent-navigation",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.2.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-consistent-behavior-consistent-locations"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation"
                             },
                             {
                                 "title": "Understanding 3.2.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html"
                             }
                         ]
                     },
@@ -1359,18 +1359,18 @@
                         "ref_id": "3.2.4",
                         "title": "Consistent Identification",
                         "description": "Components that have the same functionality within a set of Web pages are identified consistently.",
-                        "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality",
+                        "url": "https://www.w3.org/TR/WCAG21/#consistent-identification",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.2.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-consistent-behavior-consistent-functionality"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification"
                             },
                             {
                                 "title": "Understanding 3.2.4",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html"
                             }
                         ]
                     },
@@ -1378,18 +1378,18 @@
                         "ref_id": "3.2.5",
                         "title": "Change on Request",
                         "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes.",
-                        "url": "https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context",
+                        "url": "https://www.w3.org/TR/WCAG21/#change-on-request",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.2.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-consistent-behavior-no-extreme-changes-context"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#change-on-request"
                             },
                             {
                                 "title": "Understanding 3.2.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/change-on-request.html"
                             }
                         ]
                     }
@@ -1411,18 +1411,18 @@
                         "ref_id": "3.3.1",
                         "title": "Error Identification",
                         "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.",
-                        "url": "https://www.w3.org/TR/WCAG20/#minimize-error-identified",
+                        "url": "https://www.w3.org/TR/WCAG21/#error-identification",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.3.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-identified"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#error-identification"
                             },
                             {
                                 "title": "Understanding 3.3.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html"
                             }
                         ]
                     },
@@ -1430,18 +1430,18 @@
                         "ref_id": "3.3.2",
                         "title": "Labels or Instructions",
                         "description": "Labels or instructions are provided when content requires user input.",
-                        "url": "https://www.w3.org/TR/WCAG20/#minimize-error-cues",
+                        "url": "https://www.w3.org/TR/WCAG21/#labels-or-instructions",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.3.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-cues"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions"
                             },
                             {
                                 "title": "Understanding 3.3.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html"
                             }
                         ]
                     },
@@ -1449,18 +1449,18 @@
                         "ref_id": "3.3.3",
                         "title": "Error Suggestion",
                         "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.",
-                        "url": "https://www.w3.org/TR/WCAG20/#minimize-error-suggestions",
+                        "url": "https://www.w3.org/TR/WCAG21/#error-suggestion",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.3.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-suggestions"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion"
                             },
                             {
                                 "title": "Understanding 3.3.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html"
                             }
                         ]
                     },
@@ -1468,7 +1468,7 @@
                         "ref_id": "3.3.4",
                         "title": "Error Prevention (Legal, Financial, Data)",
                         "description": " For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:",
-                        "url": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible",
+                        "url": "https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -1491,11 +1491,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 3.3.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-reversible"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data"
                             },
                             {
                                 "title": "Understanding 3.3.4",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html"
                             }
                         ]
                     },
@@ -1503,18 +1503,18 @@
                         "ref_id": "3.3.5",
                         "title": "Help",
                         "description": "Context-sensitive help is available.",
-                        "url": "https://www.w3.org/TR/WCAG20/#minimize-error-context-help",
+                        "url": "https://www.w3.org/TR/WCAG21/#help",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.3.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-context-help"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#help"
                             },
                             {
                                 "title": "Understanding 3.3.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-context-help.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/help.html"
                             }
                         ]
                     },
@@ -1522,7 +1522,7 @@
                         "ref_id": "3.3.6",
                         "title": "Error Prevention (All)",
                         "description": "For Web pages that require the user to submit information, at least one of the following is true:",
-                        "url": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible-all",
+                        "url": "https://www.w3.org/TR/WCAG21/#error-prevention-all",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -1545,11 +1545,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 3.3.6",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-reversible-all"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-all"
                             },
                             {
                                 "title": "Understanding 3.3.6",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible-all.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-all.html"
                             }
                         ]
                     }
