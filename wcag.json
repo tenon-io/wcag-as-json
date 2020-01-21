@@ -21,7 +21,7 @@
                         "ref_id": "1.1.1",
                         "title": "Non-text Content",
                         "description": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.",
-                        "url": "https://www.w3.org/TR/WCAG20/#text-equiv-all",
+                        "url": "https://www.w3.org/TR/WCAG21/#non-text-content",
                         "level": "A",
                         "special_cases": [
                             {
@@ -59,11 +59,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.1.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-text-equiv-all"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-content"
                             },
                             {
                                 "title": "Understanding 1.1.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html"
                             }
                         ]
                     }
@@ -85,7 +85,7 @@
                         "ref_id": "1.2.1",
                         "title": "Audio-only and Video-only (Prerecorded)",
                         "description": "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt",
+                        "url": "https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded",
                         "level": "A",
                         "special_cases": [
                             {
@@ -103,11 +103,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.2.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-av-only-alt"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html"
                             }
                         ]
                     },
@@ -115,18 +115,18 @@
                         "ref_id": "1.2.2",
                         "title": "Captions (Prerecorded)",
                         "description": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-captions",
+                        "url": "https://www.w3.org/TR/WCAG21/#captions-prerecorded",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-captions"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html"
                             }
                         ]
                     },
@@ -134,18 +134,18 @@
                         "ref_id": "1.2.3",
                         "title": "Audio Description or Media Alternative (Prerecorded)",
                         "description": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc",
+                        "url": "https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-audio-desc"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html"
                             }
                         ]
                     },
@@ -153,14 +153,14 @@
                         "ref_id": "1.2.4",
                         "title": "Captions (Live)",
                         "description": "Captions are provided for all live audio content in synchronized media.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions",
+                        "url": "https://www.w3.org/TR/WCAG21/#captions-live",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-real-time-captions"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html"
                             },
                             {
                                 "title": "Understanding 1.2.4",
@@ -172,18 +172,18 @@
                         "ref_id": "1.2.5",
                         "title": "Audio Description (Prerecorded)",
                         "description": "Audio description is provided for all prerecorded video content in synchronized media.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only",
+                        "url": "https://www.w3.org/TR/WCAG21/#audio-description-prerecorded",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-audio-desc-only"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html"
                             }
                         ]
                     },
@@ -191,18 +191,18 @@
                         "ref_id": "1.2.6",
                         "title": "Sign Language (Prerecorded)",
                         "description": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-sign",
+                        "url": "https://www.w3.org/TR/WCAG21/#sign-language-prerecorded",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.6",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-sign"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.6",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-sign.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html"
                             }
                         ]
                     },
@@ -210,18 +210,18 @@
                         "ref_id": "1.2.7",
                         "title": "Extended Audio Description (Prerecorded)",
                         "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-extended-ad",
+                        "url": "https://www.w3.org/TR/WCAG21/#extended-audio-description-prerecorded",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.7",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-extended-ad"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#extended-audio-description-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.7",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-extended-ad.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html"
                             }
                         ]
                     },
@@ -229,18 +229,18 @@
                         "ref_id": "1.2.8",
                         "title": "Media Alternative (Prerecorded)",
                         "description": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-text-doc",
+                        "url": "https://www.w3.org/TR/WCAG21/#media-alternative-prerecorded",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.8",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-text-doc"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#media-alternative-prerecorded"
                             },
                             {
                                 "title": "Understanding 1.2.8",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded.html"
                             }
                         ]
                     },
@@ -248,18 +248,18 @@
                         "ref_id": "1.2.9",
                         "title": "Audio-only (Live)",
                         "description": " An alternative for time-based media that presents equivalent information for live audio-only content is provided.",
-                        "url": "https://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only",
+                        "url": "https://www.w3.org/TR/WCAG21/#audio-only-live",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.2.9",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-live-audio-only"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#audio-only-live"
                             },
                             {
                                 "title": "Understanding 1.2.9",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-live-audio-only.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live.html"
                             }
                         ]
                     }
@@ -281,18 +281,18 @@
                         "ref_id": "1.3.1",
                         "title": "Info and Relationships",
                         "description": "Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.",
-                        "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic",
+                        "url": "https://www.w3.org/TR/WCAG21/#info-and-relationships",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.3.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-programmatic"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships"
                             },
                             {
                                 "title": "Understanding 1.3.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
                             }
                         ]
                     },
@@ -300,18 +300,18 @@
                         "ref_id": "1.3.2",
                         "title": "Meaningful Sequence",
                         "description": "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.",
-                        "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation-sequence",
+                        "url": "https://www.w3.org/TR/WCAG21/#meaningful-sequence",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.3.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-sequence"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence"
                             },
                             {
                                 "title": "Understanding 1.3.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html"
                             }
                         ]
                     },
@@ -319,7 +319,7 @@
                         "ref_id": "1.3.3",
                         "title": "Sensory Characteristics",
                         "description": "Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.",
-                        "url": "https://www.w3.org/TR/WCAG20/#content-structure-separation-understanding",
+                        "url": "https://www.w3.org/TR/WCAG21/#sensory-characteristics",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
@@ -330,11 +330,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.3.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-content-structure-separation-understanding"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics"
                             },
                             {
                                 "title": "Understanding 1.3.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html"
                             }
                         ]
                     }
@@ -356,7 +356,7 @@
                         "ref_id": "1.4.1",
                         "title": "Use of Color",
                         "description": "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color",
+                        "url": "https://www.w3.org/TR/WCAG21/#use-of-color",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
@@ -367,11 +367,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-without-color"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#use-of-color"
                             },
                             {
                                 "title": "Understanding 1.4.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html"
                             }
                         ]
                     },
@@ -379,7 +379,7 @@
                         "ref_id": "1.4.2",
                         "title": "Audio Control",
                         "description": "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio",
+                        "url": "https://www.w3.org/TR/WCAG21/#audio-control",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
@@ -390,11 +390,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#audio-control"
                             },
                             {
                                 "title": "Understanding 1.4.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html"
                             }
                         ]
                     },
@@ -402,7 +402,7 @@
                         "ref_id": "1.4.3",
                         "title": "Contrast (Minimum)",
                         "description": " The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast",
+                        "url": "https://www.w3.org/TR/WCAG21/#contrast-minimum",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -425,11 +425,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum"
                             },
                             {
                                 "title": "Understanding 1.4.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
                             }
                         ]
                     },
@@ -437,18 +437,18 @@
                         "ref_id": "1.4.4",
                         "title": "Resize text",
                         "description": "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale",
+                        "url": "https://www.w3.org/TR/WCAG21/#resize-text",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 1.4.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-scale"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#resize-text"
                             },
                             {
                                 "title": "Understanding 1.4.4",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html"
                             }
                         ]
                     },
@@ -456,7 +456,7 @@
                         "ref_id": "1.4.5",
                         "title": "Images of Text",
                         "description": "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation",
+                        "url": "https://www.w3.org/TR/WCAG21/#images-of-text",
                         "level": "AA",
                         "special_cases": [
                             {
@@ -478,11 +478,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-text-presentation"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text"
                             },
                             {
                                 "title": "Understanding 1.4.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html"
                             }
                         ]
                     },
@@ -490,7 +490,7 @@
                         "ref_id": "1.4.6",
                         "title": "Contrast (Enhanced)",
                         "description": "The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following: ",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast7",
+                        "url": "https://www.w3.org/TR/WCAG21/#contrast-enhanced",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -513,11 +513,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.6",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast7"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced"
                             },
                             {
                                 "title": "Understanding 1.4.6",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast7.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html"
                             }
                         ]
                     },
@@ -525,7 +525,7 @@
                         "ref_id": "1.4.7",
                         "title": "Low or No Background Audio",
                         "description": "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio",
+                        "url": "https://www.w3.org/TR/WCAG21/#low-or-no-background-audio",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -552,10 +552,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.7",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-noaudio"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#low-or-no-background-audio"
                             },
                             {
-                                "title": "Understanding 1.4.7"
+                                "title": "Understanding 1.4.7",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html"
                             }
                         ]
                     },
@@ -563,7 +564,7 @@
                         "ref_id": "1.4.8",
                         "title": "Visual Presentation",
                         "description": "For the visual presentation of blocks of text, a mechanism is available to achieve the following:",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation",
+                        "url": "https://www.w3.org/TR/WCAG21/#visual-presentation",
                         "level": "AAA",
                         "special_cases": [
                             {
@@ -591,11 +592,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.8",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-visual-presentation"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation"
                             },
                             {
                                 "title": "Understanding 1.4.8",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html"
                             }
                         ]
                     },
@@ -603,7 +604,7 @@
                         "ref_id": "1.4.9",
                         "title": "Images of Text (No Exception)",
                         "description": "Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.",
-                        "url": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images",
+                        "url": "https://www.w3.org/TR/WCAG21/#images-of-text-no-exception",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": [
@@ -614,11 +615,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 1.4.9",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-text-images"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#images-of-text-no-exception"
                             },
                             {
                                 "title": "Understanding 1.4.9",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-images.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text-no-exception.html"
                             }
                         ]
                     }
