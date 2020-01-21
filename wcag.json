@@ -3,7 +3,7 @@
         "ref_id": "1",
         "title": "Perceivable",
         "description": "Information and user interface components must be presentable to users in ways they can perceive.",
-        "url": "https://www.w3.org/TR/WCAG20/#perceivable",
+        "url": "https://www.w3.org/TR/WCAG21/#perceivable",
         "guidelines": [
             {
                 "ref_id": "1.1",
@@ -630,7 +630,7 @@
         "ref_id": "2",
         "title": "Operable",
         "description": "User interface components and navigation must be operable.",
-        "url": "https://www.w3.org/TR/WCAG20/#operable",
+        "url": "https://www.w3.org/TR/WCAG21/#operable",
         "guidelines": [
             {
                 "ref_id": "2.1",
@@ -1155,7 +1155,7 @@
         "ref_id": "3",
         "title": "Understandable",
         "description": "Information and the operation of user interface must be understandable.",
-        "url": "https://www.w3.org/TR/WCAG20/#understandable",
+        "url": "https://www.w3.org/TR/WCAG21/#understandable",
         "guidelines": [
             {
                 "ref_id": "3.1",
@@ -1560,7 +1560,7 @@
         "ref_id": "4",
         "title": "Robust",
         "description": "Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.",
-        "url": "https://www.w3.org/TR/WCAG20/#robust",
+        "url": "https://www.w3.org/TR/WCAG21/#robust",
         "guidelines": [
             {
                 "ref_id": "4.1",
