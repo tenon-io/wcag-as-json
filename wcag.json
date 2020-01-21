@@ -649,7 +649,7 @@
                         "ref_id": "2.1.1",
                         "title": "Keyboard",
                         "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.",
-                        "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable",
+                        "url": "https://www.w3.org/TR/WCAG21/#keyboard",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
@@ -663,11 +663,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 2.1.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-keyboard-operation-keyboard-operable"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard"
                             },
                             {
                                 "title": "Understanding 2.1.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html"
                             }
                         ]
                     },
@@ -675,7 +675,7 @@
                         "ref_id": "2.1.2",
                         "title": "No Keyboard Trap",
                         "description": "If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.",
-                        "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation-trapping",
+                        "url": "https://www.w3.org/TR/WCAG21/#no-keyboard-trap",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
@@ -686,11 +686,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 2.1.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-keyboard-operation-trapping"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap"
                             },
                             {
                                 "title": "Understanding 2.1.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html"
                             }
                         ]
                     },
@@ -698,18 +698,18 @@
                         "ref_id": "2.1.3",
                         "title": "Keyboard (No Exception)",
                         "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.",
-                        "url": "https://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs",
+                        "url": "https://www.w3.org/TR/WCAG21/#keyboard-no-exception",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.1.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-keyboard-operation-all-funcs"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#keyboard-no-exception"
                             },
                             {
                                 "title": "Understanding 2.1.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-all-funcs.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html"
                             }
                         ]
                     }
@@ -731,7 +731,7 @@
                         "ref_id": "2.2.1",
                         "title": "Timing Adjustable",
                         "description": "For each time limit that is set by the content, at least one of the following is true:",
-                        "url": "https://www.w3.org/TR/WCAG20/#time-limits-required-behaviors",
+                        "url": "https://www.w3.org/TR/WCAG21/#timing-adjustable",
                         "level": "A",
                         "special_cases": [
                             {
@@ -773,11 +773,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 2.2.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-time-limits-required-behaviors"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable"
                             },
                             {
                                 "title": "Understanding 2.2.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html"
                             }
                         ]
                     },
@@ -785,7 +785,7 @@
                         "ref_id": "2.2.2",
                         "title": "Pause, Stop, Hide",
                         "description": "For moving, blinking, scrolling, or auto-updating information, all of the following are true:",
-                        "url": "https://www.w3.org/TR/WCAG20/#time-limits-pause",
+                        "url": "https://www.w3.org/TR/WCAG21/#pause-stop-hide",
                         "level": "A",
                         "special_cases": [
                             {
@@ -816,11 +816,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 2.2.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-time-limits-pause"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide"
                             },
                             {
                                 "title": "Understanding 2.2.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html"
                             }
                         ]
                     },
@@ -828,18 +828,18 @@
                         "ref_id": "2.2.3",
                         "title": "No Timing",
                         "description": "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events.",
-                        "url": "https://www.w3.org/TR/WCAG20/#time-limits-no-exceptions",
+                        "url": "https://www.w3.org/TR/WCAG21/#no-timing",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.2.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-time-limits-no-exceptions"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#no-timing"
                             },
                             {
                                 "title": "Understanding 2.2.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-no-exceptions.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/no-timing.html"
                             }
                         ]
                     },
@@ -847,18 +847,18 @@
                         "ref_id": "2.2.4",
                         "title": "Interruptions",
                         "description": "Interruptions can be postponed or suppressed by the user, except interruptions involving an emergency.",
-                        "url": "https://www.w3.org/TR/WCAG20/#time-limits-postponed",
+                        "url": "https://www.w3.org/TR/WCAG21/#interruptions",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.2.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-time-limits-postponed"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#interruptions"
                             },
                             {
                                 "title": "Understanding 2.2.4",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/interruptions.html"
                             }
                         ]
                     },
@@ -866,18 +866,18 @@
                         "ref_id": "2.2.5",
                         "title": "Re-authenticating",
                         "description": "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.",
-                        "url": "https://www.w3.org/TR/WCAG20/#time-limits-server-timeout",
+                        "url": "https://www.w3.org/TR/WCAG21/#re-authenticating",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.2.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-time-limits-server-timeout"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#re-authenticating"
                             },
                             {
                                 "title": "Understanding 2.2.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-server-timeout.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/re-authenticating.html"
                             }
                         ]
                     }
@@ -899,7 +899,7 @@
                         "ref_id": "2.3.1",
                         "title": "Three Flashes or Below Threshold",
                         "description": "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.",
-                        "url": "https://www.w3.org/TR/WCAG20/#seizure-does-not-violate",
+                        "url": "https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold",
                         "level": "A",
                         "special_cases": null,
                         "notes": [
@@ -910,11 +910,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 2.3.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-seizure-does-not-violate"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold"
                             },
                             {
                                 "title": "Understanding 2.3.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html"
                             }
                         ]
                     },
@@ -922,18 +922,18 @@
                         "ref_id": "2.3.2",
                         "title": "Three Flashes",
                         "description": "Web pages do not contain anything that flashes more than three times in any one second period.",
-                        "url": "https://www.w3.org/TR/WCAG20/#seizure-three-times",
+                        "url": "https://www.w3.org/TR/WCAG21/#three-flashes",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.3.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-seizure-three-times"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#three-flashes"
                             },
                             {
                                 "title": "Understanding 2.3.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-three-times.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html"
                             }
                         ]
                     }
@@ -955,18 +955,18 @@
                         "ref_id": "2.4.1",
                         "title": "Bypass Blocks",
                         "description": "A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip",
+                        "url": "https://www.w3.org/TR/WCAG21/#bypass-blocks",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.1",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-skip"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks"
                             },
                             {
                                 "title": "Understanding 2.4.1",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html"
                             }
                         ]
                     },
@@ -974,18 +974,18 @@
                         "ref_id": "2.4.2",
                         "title": "Page Titled",
                         "description": "Web pages have titles that describe topic or purpose.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-title",
+                        "url": "https://www.w3.org/TR/WCAG21/#page-titled",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.2",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-title"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#page-titled"
                             },
                             {
                                 "title": "Understanding 2.4.2",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html"
                             }
                         ]
                     },
@@ -993,18 +993,18 @@
                         "ref_id": "2.4.3",
                         "title": "Focus Order",
                         "description": "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order",
+                        "url": "https://www.w3.org/TR/WCAG21/#focus-order",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.3",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-focus-order"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#focus-order"
                             },
                             {
                                 "title": "Understanding 2.4.3",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html"
                             }
                         ]
                     },
@@ -1012,18 +1012,18 @@
                         "ref_id": "2.4.4",
                         "title": "Link Purpose (In Context)",
                         "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs",
+                        "url": "https://www.w3.org/TR/WCAG21/#link-purpose-in-context",
                         "level": "A",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.4",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-refs"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context"
                             },
                             {
                                 "title": "Understanding 2.4.4",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html"
                             }
                         ]
                     },
@@ -1031,18 +1031,18 @@
                         "ref_id": "2.4.5",
                         "title": "Multiple Ways",
                         "description": "More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc",
+                        "url": "https://www.w3.org/TR/WCAG21/#link-purpose-in-context",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.5",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-mult-loc"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#multiple-ways"
                             },
                             {
                                 "title": "Understanding 2.4.5",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways.html"
                             }
                         ]
                     },
@@ -1050,18 +1050,18 @@
                         "ref_id": "2.4.6",
                         "title": "Headings and Labels",
                         "description": "Headings and labels describe topic or purpose.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive",
+                        "url": "https://www.w3.org/TR/WCAG21/#headings-and-labels",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.6",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-descriptive"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels"
                             },
                             {
                                 "title": "Understanding 2.4.6",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html"
                             }
                         ]
                     },
@@ -1069,18 +1069,18 @@
                         "ref_id": "2.4.7",
                         "title": "Focus Visible",
                         "description": "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible",
+                        "url": "https://www.w3.org/TR/WCAG21/#focus-visible",
                         "level": "AA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.7",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-focus-visible"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#focus-visible"
                             },
                             {
                                 "title": "Understanding 2.4.7",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html"
                             }
                         ]
                     },
@@ -1088,18 +1088,18 @@
                         "ref_id": "2.4.8",
                         "title": "Location",
                         "description": "Information about the user's location within a set of Web pages is available.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-location",
+                        "url": "https://www.w3.org/TR/WCAG21/#location",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.8",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-location"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#location"
                             },
                             {
                                 "title": "Understanding 2.4.8",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-location.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/location.html"
                             }
                         ]
                     },
@@ -1107,18 +1107,18 @@
                         "ref_id": "2.4.9",
                         "title": "Link Purpose (Link Only)",
                         "description": "A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-link",
+                        "url": "https://www.w3.org/TR/WCAG21/#link-purpose-link-only",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.9",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-link"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only"
                             },
                             {
                                 "title": "Understanding 2.4.9",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-link-only.html"
                             }
                         ]
                     },
@@ -1126,7 +1126,7 @@
                         "ref_id": "2.4.10",
                         "title": "Section Headings",
                         "description": "Section headings are used to organize the content.",
-                        "url": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings",
+                        "url": "https://www.w3.org/TR/WCAG21/#section-headings",
                         "level": "AAA",
                         "special_cases": null,
                         "notes": [
@@ -1140,11 +1140,11 @@
                         "references": [
                             {
                                 "title": "How to Meet 2.4.10",
-                                "url": "http://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings"
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#section-headings"
                             },
                             {
                                 "title": "Understanding 2.4.10",
-                                "url": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html"
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html"
                             }
                         ]
                     }
