@@ -692,6 +692,45 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/images-of-text-no-exception.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "1.4.10",
+                        "title": "Reflow",
+                        "description": "Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:",
+                        "url": "https://www.w3.org/TR/WCAG21/#reflow",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "all_true",
+                                "title": "Vertical scrolling content at a width equivalent to 320 CSS pixels;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Horizontal scrolling content at a height equivalent to 256 CSS pixels."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Except for parts of the content which require two-dimensional layout for usage or meaning."
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": "Note: 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For web content which are designed to scroll horizontally (e.g. with vertical text), the 256 CSS pixels is equivalent to a starting viewport height of 1024px at 400% zoom."
+                            },
+                            {
+                                "content": "Examples of content which require two-dimensional layout are images, maps, diagrams, video, games, presentations, data tables, and interfaces where it is necessary to keep toolbars in view while manipulating content."
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.10",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#reflow"
+                            },
+                            {
+                                "title": "Understanding 1.4.10",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html"
+                            }
+                        ]
                     }
                 ]
             }
