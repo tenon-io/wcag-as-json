@@ -731,6 +731,36 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "1.4.11",
+                        "title": "Non-text Contrast",
+                        "description": "The visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):",
+                        "url": "https://www.w3.org/TR/WCAG21/#non-text-contrast",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "all_true",
+                                "title": "User Interface Components",
+                                "description": "Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Graphical Objects",
+                                "description": "Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.11",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast"
+                            },
+                            {
+                                "title": "Understanding 1.4.11",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html"
+                            }
+                        ]
                     }
                 ]
             }
