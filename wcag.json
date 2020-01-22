@@ -1556,6 +1556,36 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html"
                             }
                         ]
+                    },
+                    { 
+                        "ref_id": "2.5.4",
+                        "title": "Motion Actuation",
+                        "description": "Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:",
+                        "url": "https://www.w3.org/TR/WCAG21/#motion-actuation",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "exception",
+                                "title": "Supported Interface",
+                                "description": "The motion is used to operate functionality through an accessibility supported interface;"
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Essential",
+                                "description": "The motion is essential for the function and doing so would invalidate the activity."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 2.5.4",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation"
+                            },
+                            {
+                                "title": "Understanding 2.5.4",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/motion-actuation.html"
+                            }
+                        ]
                     }
                 ]
             }
