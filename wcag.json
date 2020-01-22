@@ -388,6 +388,25 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "1.3.6",
+                        "title": "Identify Purpose",
+                        "description": "In content implemented using markup languages, the purpose of User Interface Components, icons, and regions can be programmatically determined.",
+                        "url": "https://www.w3.org/TR/WCAG21/#identify-purpose",
+                        "level": "AAA",
+                        "special_cases": null,
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 1.3.6",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#identify-purpose"
+                            },
+                            {
+                                "title": "Understanding 1.3.6",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/identify-purpose.html"
+                            }
+                        ]
                     }
                 ]
             },
