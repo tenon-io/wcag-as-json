@@ -1140,6 +1140,29 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/re-authenticating.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "2.2.6",
+                        "title": "Timeouts",
+                        "description": "Users are warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.",
+                        "url": "https://www.w3.org/TR/WCAG21/#timeouts",
+                        "level": "AAA",
+                        "special_cases": null,
+                        "notes": [
+                            {
+                                "content": "Privacy regulations may require explicit user consent before user identification has been authenticated and before user data is preserved. In cases where the user is a minor, explicit consent may not be solicited in most jurisdictions, countries or regions. Consultation with privacy professionals and legal counsel is advised when considering data preservation as an approach to satisfy this success criterion."
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet 2.2.6",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#timeouts"
+                            },
+                            {
+                                "title": "Understanding 2.2.6",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html"
+                            }
+                        ]
                     }
                 ]
             },
