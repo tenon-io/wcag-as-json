@@ -761,6 +761,46 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "1.4.12",
+                        "title": "Text Spacing",
+                        "description": "In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:",
+                        "url": "https://www.w3.org/TR/WCAG21/#text-spacing",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "all_true",
+                                "title": "Line height (line spacing) to at least 1.5 times the font size;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Spacing following paragraphs to at least 2 times the font size;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Letter spacing (tracking) to at least 0.12 times the font size;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Word spacing to at least 0.16 times the font size."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.12",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#text-spacing"
+                            },
+                            {
+                                "title": "Understanding 1.4.12",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html"
+                            }
+                        ]
                     }
                 ]
             }
