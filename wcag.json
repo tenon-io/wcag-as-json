@@ -937,6 +937,41 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard-no-exception.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "2.1.4",
+                        "title": "Character Key Shortcuts",
+                        "description": "If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:",
+                        "url": "https://www.w3.org/TR/WCAG21/#character-key-shortcuts",
+                        "level": "A",
+                        "special_cases": [
+                            {
+                                "type": "at_least_one",
+                                "title": "Turn off",
+                                "description": "A mechanism is available to turn the shortcut off;"
+                            },
+                            {
+                                "type": "at_least_one",
+                                "title": "Remap",
+                                "description": "A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc);"
+                            },
+                            {
+                                "type": "at_least_one",
+                                "title": "Active only on focus",
+                                "description": "The keyboard shortcut for a user interface component is only active when that component has focus."
+                            }
+                        ],
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 2.1.4",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts"
+                            },
+                            {
+                                "title": "Understanding 2.1.4",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html"
+                            }
+                        ]
                     }
                 ]
             },
