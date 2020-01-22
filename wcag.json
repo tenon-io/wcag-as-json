@@ -454,7 +454,7 @@
                         "special_cases": null,
                         "notes": [
                             {
-                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
+                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG21/#cc5)"
                             }
                         ],
                         "references": [
@@ -905,7 +905,7 @@
                         "special_cases": null,
                         "notes": [
                             {
-                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
+                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG21/#cc5)"
                             }
                         ],
                         "references": [
@@ -1027,7 +1027,7 @@
                         ],
                         "notes": [
                             {
-                                "content": "This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with Success Criterion 3.2.1 (https://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus), which puts limits on changes of content or context as a result of user action."
+                                "content": "This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with Success Criterion 3.2.1 (https://www.w3.org/TR/WCAG21/#on-focus), which puts limits on changes of content or context as a result of user action."
                             }
                         ],
                         "references": [
@@ -1061,10 +1061,10 @@
                         ],
                         "notes": [
                             {
-                                "content": "For requirements related to flickering or flashing content, refer to Guideline 2.3. (https://www.w3.org/TR/WCAG20/#seizure)"
+                                "content": "For requirements related to flickering or flashing content, refer to Guideline 2.3. (https://www.w3.org/TR/WCAG21/#seizures-and-physical-reactions)"
                             },
                             {
-                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference (https://www.w3.org/TR/WCAG20/#cc5)"
+                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference (https://www.w3.org/TR/WCAG21/#cc5)"
                             },
                             {
                                 "content": "Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so."
@@ -1187,7 +1187,7 @@
                         "special_cases": null,
                         "notes": [
                             {
-                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG20/#cc5)"
+                                "content": "Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference. (https://www.w3.org/TR/WCAG21/#cc5)"
                             }
                         ],
                         "references": [
@@ -1436,7 +1436,7 @@
                                 "content": "'Heading' is used in its general sense and includes titles and other ways to add a heading to different types of content."
                             },
                             {
-                                "content": "This success criterion covers sections within writing, not user interface components. User Interface components are covered under Success Criterion 4.1.2. (http://www.w3.org/TR/2008/REC-WCAG20-20081211/#ensure-compat-rsv)"
+                                "content": "This success criterion covers sections within writing, not user interface components. User Interface components are covered under Success Criterion 4.1.2. (https://www.w3.org/TR/WCAG21/#name-role-value)"
                             }
                         ],
                         "references": [
