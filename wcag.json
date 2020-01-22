@@ -1219,6 +1219,25 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "2.3.3",
+                        "title": "Animation from Interactions",
+                        "description": "Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.",
+                        "url": "https://www.w3.org/TR/WCAG21/#animation-from-interactions",
+                        "level": "AAA",
+                        "special_cases": null,
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 2.3.3",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#animation-from-interactions"
+                            },
+                            {
+                                "title": "Understanding 2.3.3",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html"
+                            }
+                        ]
                     }
                 ]
             },
