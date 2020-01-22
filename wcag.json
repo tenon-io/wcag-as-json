@@ -1626,6 +1626,25 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html"
                             }
                         ]
+                    },
+                    { 
+                        "ref_id": "2.5.6",
+                        "title": "Concurrent Input Mechanisms",
+                        "description": "Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.",
+                        "url": "https://www.w3.org/TR/WCAG21/#concurrent-input-mechanisms",
+                        "level": "AAA",
+                        "special_cases": null,
+                        "notes": null,
+                        "references": [
+                            {
+                                "title": "How to Meet 2.5.6",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#concurrent-input-mechanisms"
+                            },
+                            {
+                                "title": "Understanding 2.5.6",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/concurrent-input-mechanisms.html"
+                            }
+                        ]
                     }
                 ]
             }
