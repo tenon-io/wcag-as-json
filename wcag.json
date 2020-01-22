@@ -801,6 +801,52 @@
                                 "url": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html"
                             }
                         ]
+                    },
+                    {
+                        "ref_id": "1.4.13",
+                        "title": "Content on Hover or Focus",
+                        "description": "Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:",
+                        "url": "https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus",
+                        "level": "AA",
+                        "special_cases": [
+                            {
+                                "type": "all_true",
+                                "title": "Dismissable",
+                                "description": "A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Hoverable",
+                                "description": "If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;"
+                            },
+                            {
+                                "type": "all_true",
+                                "title": "Persistent",
+                                "description": "The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author."
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": "Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML title attribute."
+                            },
+                            {
+                                "content": "Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion."
+                            }
+                        ],
+                        "references": [
+                            {
+                                "title": "How to Meet 1.4.13",
+                                "url": "https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus"
+                            },
+                            {
+                                "title": "Understanding 1.4.13",
+                                "url": "https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html"
+                            }
+                        ]
                     }
                 ]
             }
