@@ -1451,6 +1451,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "ref_id": "2.5",
+                "title": "Input Modalities",
+                "description": "Make it easier for users to operate functionality through various inputs beyond keyboard.",
+                "url": "https://www.w3.org/TR/WCAG21/#input-modalities",
+                "references": [
+                    {
+                        "title": "Understanding Guideline 2.5",
+                        "url": "https://www.w3.org/WAI/WCAG21/Understanding/input-modalities.html"
+                    }
+                ],
+                "success_criteria": []
             }
         ]
     },
