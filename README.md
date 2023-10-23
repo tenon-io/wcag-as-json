@@ -1,6 +1,6 @@
 # WCAG as JSON
 
-This is a JSON formatted version of WCAG 2.1
+This is a JSON formatted version of WCAG 2.2
 
 We created this as a way to be able to quickly insert references to WCAG-related information into other documents.
 
@@ -52,4 +52,4 @@ A full WCAG SC Entry looks like this:
 ## License
 The JSON formatted document has an MIT license.
 
-This software or document includes material copied from or derived from Web Content Accessibility Guidelines (WCAG) 2.1 https://www.w3.org/TR/WCAG21/. Copyright © 2008 W3C® (MIT, ERCIM, Keio, Beihang).
+This software or document includes material copied from or derived from Web Content Accessibility Guidelines (WCAG) 2.2 https://www.w3.org/TR/WCAG21/. Copyright © 2008 W3C® (MIT, ERCIM, Keio, Beihang).
