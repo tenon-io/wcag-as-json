@@ -1483,6 +1483,7 @@
                         "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
                         "level": "AAA",
                         "special_cases": null,
+                        "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 2.4.12",
@@ -1508,6 +1509,25 @@
                             {
                                 "type": "all_true",
                                 "title": "has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states."
+                            },
+                            {
+                                "type": "exception",
+                                "title": "The focus indicator is determined by the user agent and cannot be adjusted by the author, or"
+                            },
+                            {
+                                "type": "exception",
+                                "title": "The focus indicator and the indicator’s background color are not modified by the author."
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "content": "What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual presentation. The visual presentation includes the component's visible content, border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border."
+                            },
+                            {
+                                "content": "Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid."
+                            },
+                            {
+                                "content": "Contrast calculations can be based on colors defined within the technology (such as HTML, CSS and SVG). Pixels modified by user agent resolution enhancements and anti-aliasing can be ignored."
                             }
                         ],
                         "references": [
@@ -2346,6 +2366,7 @@
                                 "description": "A mechanism is available to assist the user in completing the cognitive function test."
                             }
                         ],
+                        "notes": null,
                         "references": [
                             {
                                 "title": "How to Meet 3.3.9",
